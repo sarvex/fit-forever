@@ -10,5 +10,5 @@ target ‘FitForever’ do
   pod 'FBSDKShareKit', '~> 4.6'
   pod 'FBSDKLoginKit', '~> 4.6'
   pod 'Fabric', '~> 1.5'
-  
+  pod 'MBProgressHUD', '~> 0.9'
 end

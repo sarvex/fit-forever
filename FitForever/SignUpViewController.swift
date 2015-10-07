@@ -8,6 +8,7 @@
 
 import UIKit
 import Parse
+import MBProgressHUD
 
 class SignUpViewController: UIViewController {
     
@@ -21,6 +22,15 @@ class SignUpViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        nameTextField.text = nil
+        emailTextField.text = nil
+        usernameTextField.text = nil
+        passwordTextField.text = nil
+        mobileTextField.text = nil
     }
     
     override func didReceiveMemoryWarning() {
@@ -55,6 +65,8 @@ class SignUpViewController: UIViewController {
                 presentViewController(alertController, animated: true, completion: nil)
             }
             else {
+                let progressView = MBProgressHUD.showHUDAddedTo(self.view, animated: true)
+                progressView.labelText = "Signing Up..."
                 let newUser = PFUser()
                 newUser.username = username
                 newUser.password = password
@@ -68,6 +80,8 @@ class SignUpViewController: UIViewController {
                 
                 newUser.signUpInBackgroundWithBlock {
                     (succeeded: Bool, error: NSError?) -> Void in
+                    MBProgressHUD.hideHUDForView(self.view, animated: true)
+
                     if let error = error {
                         let errorString = error.userInfo["error"] as! String
                         let alertController = UIAlertController(title: "Error", message: errorString, preferredStyle: UIAlertControllerStyle.Alert)
@@ -76,6 +90,8 @@ class SignUpViewController: UIViewController {
                         self.presentViewController(alertController, animated: true, completion: nil)
                     } else {
                         // Hooray! Let them use the app now.
+                        let ailmentVC = self.storyboard?.instantiateViewControllerWithIdentifier("AilmetViewController") as! AilmetViewController
+                        self.navigationController?.pushViewController(ailmentVC, animated: true)
                     }
                 }
             }

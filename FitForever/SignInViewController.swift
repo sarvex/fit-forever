@@ -8,6 +8,7 @@
 
 import UIKit
 import Parse
+import MBProgressHUD
 
 class SignInViewController: UIViewController {
 
@@ -18,6 +19,12 @@ class SignInViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        userNameTextField.text = nil
+        passwordTextField.text = nil
     }
 
     override func didReceiveMemoryWarning() {
@@ -34,11 +41,17 @@ class SignInViewController: UIViewController {
             presentViewController(alertController, animated: true, completion: nil)
             return
         }
+       
+        let progressView = MBProgressHUD.showHUDAddedTo(self.view, animated: true)
+        progressView.labelText = "Signing In..."
         
         PFUser.logInWithUsernameInBackground(username, password: password) {
             (user: PFUser?, error: NSError?) -> Void in
+            MBProgressHUD.hideHUDForView(self.view, animated: true)
             if user != nil {
                 // Do stuff after successful login.
+                let ailmentVC = self.storyboard?.instantiateViewControllerWithIdentifier("AilmetViewController") as! AilmetViewController
+                self.navigationController?.pushViewController(ailmentVC, animated: true)
             } else {
                 // The login failed. Check error to see why.
                 let alertController = UIAlertController(title: "Error", message: error?.description, preferredStyle: UIAlertControllerStyle.Alert)
