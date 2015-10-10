@@ -9,6 +9,8 @@
 import UIKit
 import Parse
 import MBProgressHUD
+import ParseFacebookUtilsV4
+import ParseTwitterUtils
 
 class SignInViewController: UIViewController {
 
@@ -63,11 +65,34 @@ class SignInViewController: UIViewController {
     }
 
     @IBAction func didTwitterLoginButtonTap(sender: AnyObject) {
-        
+        PFTwitterUtils.logInWithBlock {
+            (user: PFUser?, error: NSError?) -> Void in
+            if let user = user {
+                if user.isNew {
+                    print("User signed up and logged in with Twitter!")
+                } else {
+                    print("User logged in with Twitter!")
+                }
+            } else {
+                print("Uh oh. The user cancelled the Twitter login.")
+            }
+        }
     }
     
     @IBAction func didFbLoginButtonTap(sender: AnyObject) {
-        
+        let permissions = ["public_profile", "email", "user_actions.fitness"]
+        PFFacebookUtils.logInInBackgroundWithReadPermissions(permissions) {
+            (user: PFUser?, error: NSError?) -> Void in
+            if let user = user {
+                if user.isNew {
+                    print("User signed up and logged in through Facebook!")
+                } else {
+                    print("User logged in through Facebook!")
+                }
+            } else {
+                print("Uh oh. The user cancelled the Facebook login.")
+            }
+        }
     }
     
     @IBAction func didSignUpButtonTap(sender: AnyObject) {
