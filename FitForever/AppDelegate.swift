@@ -16,7 +16,7 @@ import ParseFacebookUtilsV4
 import ParseTwitterUtils
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
@@ -28,12 +28,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         Parse.setApplicationId(kParseApplicationId, clientKey: kParseClientKey)
         PFFacebookUtils.initializeFacebookWithApplicationLaunchOptions(launchOptions)
         PFTwitterUtils.initializeWithConsumerKey(kTwiiterAPIKey,  consumerSecret: kTwitterAPISecret)
-        
-        var configureError: NSError?
-        GGLContext.sharedInstance().configureWithError(&configureError)
-        assert(configureError == nil, "Error configuring Google services: \(configureError)")
-        
-        GIDSignIn.sharedInstance().delegate = self
         
         return true
     }
