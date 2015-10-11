@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		764065B8B5BD14C20B890794 /* Pods_FitForever.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34ADC579C3F0C60379DCEA9 /* Pods_FitForever.framework */; };
+		BA2A87551BCA97F00076F86A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2A87541BCA97F00076F86A /* Extensions.swift */; settings = {ASSET_TAGS = (); }; };
+		BA2A87591BCA9D750076F86A /* AilmentCardViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2A87581BCA9D750076F86A /* AilmentCardViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		BA6CED831BCA65AD00890140 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6CED821BCA65AD00890140 /* Home.storyboard */; settings = {ASSET_TAGS = (); }; };
 		BA7ABAC21BC99F2200F72108 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA7ABAC11BC99F2200F72108 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		BA7ABAC41BC99F2B00F72108 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA7ABAC31BC99F2B00F72108 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		BA7ABACC1BC9B32800F72108 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA7ABACB1BC9B32800F72108 /* GoogleService-Info.plist */; settings = {ASSET_TAGS = (); }; };
 		BA7B69231BC2C4AC00E144F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B69221BC2C4AC00E144F6 /* AppDelegate.swift */; };
 		BA7B69251BC2C4AC00E144F6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B69241BC2C4AC00E144F6 /* SignInViewController.swift */; };
-		BA7B69281BC2C4AC00E144F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA7B69261BC2C4AC00E144F6 /* Main.storyboard */; };
+		BA7B69281BC2C4AC00E144F6 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA7B69261BC2C4AC00E144F6 /* Login.storyboard */; };
 		BA7B692B1BC2C4AC00E144F6 /* FitForever.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA7B69291BC2C4AC00E144F6 /* FitForever.xcdatamodeld */; };
 		BA7B692D1BC2C4AC00E144F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA7B692C1BC2C4AC00E144F6 /* Assets.xcassets */; };
 		BA7B69301BC2C4AC00E144F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA7B692E1BC2C4AC00E144F6 /* LaunchScreen.storyboard */; };
@@ -45,13 +48,16 @@
 
 /* Begin PBXFileReference section */
 		4D7320EC273A0DD36BF41312 /* Pods-FitForever.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitForever.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitForever/Pods-FitForever.release.xcconfig"; sourceTree = "<group>"; };
+		BA2A87541BCA97F00076F86A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BA2A87581BCA9D750076F86A /* AilmentCardViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AilmentCardViewCell.swift; sourceTree = "<group>"; };
+		BA6CED821BCA65AD00890140 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		BA7ABAC11BC99F2200F72108 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		BA7ABAC31BC99F2B00F72108 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		BA7ABACB1BC9B32800F72108 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BA7B691F1BC2C4AC00E144F6 /* FitForever.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitForever.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA7B69221BC2C4AC00E144F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA7B69241BC2C4AC00E144F6 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
-		BA7B69271BC2C4AC00E144F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA7B69271BC2C4AC00E144F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		BA7B692A1BC2C4AC00E144F6 /* FitForever.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FitForever.xcdatamodel; sourceTree = "<group>"; };
 		BA7B692C1BC2C4AC00E144F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA7B692F1BC2C4AC00E144F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -136,7 +142,6 @@
 			children = (
 				BA7B69591BC469D800E144F6 /* Auth */,
 				BA7B69221BC2C4AC00E144F6 /* AppDelegate.swift */,
-				BA7B69261BC2C4AC00E144F6 /* Main.storyboard */,
 				BA7B692C1BC2C4AC00E144F6 /* Assets.xcassets */,
 				BA7B692E1BC2C4AC00E144F6 /* LaunchScreen.storyboard */,
 				BA7B69311BC2C4AC00E144F6 /* Info.plist */,
@@ -144,6 +149,9 @@
 				BA7B69551BC4183700E144F6 /* Constants.swift */,
 				BA7B695A1BC46A1500E144F6 /* Utility.swift */,
 				BA7B695C1BC4EA0A00E144F6 /* AilmetViewController.swift */,
+				BA6CED821BCA65AD00890140 /* Home.storyboard */,
+				BA2A87541BCA97F00076F86A /* Extensions.swift */,
+				BA2A87581BCA9D750076F86A /* AilmentCardViewCell.swift */,
 			);
 			path = FitForever;
 			sourceTree = "<group>";
@@ -172,6 +180,7 @@
 				BA7B69241BC2C4AC00E144F6 /* SignInViewController.swift */,
 				BA7B69531BC416CC00E144F6 /* FacebookManager.swift */,
 				BA7B69571BC45E9300E144F6 /* SignUpViewController.swift */,
+				BA7B69261BC2C4AC00E144F6 /* Login.storyboard */,
 			);
 			name = Auth;
 			sourceTree = "<group>";
@@ -295,9 +304,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA7B69301BC2C4AC00E144F6 /* LaunchScreen.storyboard in Resources */,
+				BA6CED831BCA65AD00890140 /* Home.storyboard in Resources */,
 				BA7ABACC1BC9B32800F72108 /* GoogleService-Info.plist in Resources */,
 				BA7B692D1BC2C4AC00E144F6 /* Assets.xcassets in Resources */,
-				BA7B69281BC2C4AC00E144F6 /* Main.storyboard in Resources */,
+				BA7B69281BC2C4AC00E144F6 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +398,8 @@
 				BA7B69581BC45E9300E144F6 /* SignUpViewController.swift in Sources */,
 				BA7B69561BC4183700E144F6 /* Constants.swift in Sources */,
 				BA7B692B1BC2C4AC00E144F6 /* FitForever.xcdatamodeld in Sources */,
+				BA2A87591BCA9D750076F86A /* AilmentCardViewCell.swift in Sources */,
+				BA2A87551BCA97F00076F86A /* Extensions.swift in Sources */,
 				BA7B69541BC416CC00E144F6 /* FacebookManager.swift in Sources */,
 				BA7B69251BC2C4AC00E144F6 /* SignInViewController.swift in Sources */,
 				BA7B69231BC2C4AC00E144F6 /* AppDelegate.swift in Sources */,
@@ -426,12 +438,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BA7B69261BC2C4AC00E144F6 /* Main.storyboard */ = {
+		BA7B69261BC2C4AC00E144F6 /* Login.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BA7B69271BC2C4AC00E144F6 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 		BA7B692E1BC2C4AC00E144F6 /* LaunchScreen.storyboard */ = {

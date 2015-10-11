@@ -34,6 +34,20 @@ class SignInViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func pushToHomeScreen(loginSuccess: Bool, error: NSError?){
+        if loginSuccess {
+            // Do stuff after successful login.
+            let homeTabVC = UIStoryboard.HomeStoryBoard().instantiateInitialViewController() as! UITabBarController
+            self.view.window?.rootViewController = homeTabVC
+        } else {
+            // The login failed. Check error to see why.
+            let alertController = UIAlertController(title: "Error", message: error?.description, preferredStyle: UIAlertControllerStyle.Alert)
+            let alertAction = UIAlertAction(title: "Cancel", style: UIAlertActionStyle.Cancel, handler: nil)
+            alertController.addAction(alertAction)
+            self.presentViewController(alertController, animated: true, completion: nil)
+        }
+    }
+    
     //MARK: IBActions
     @IBAction func didSignInButtonTap(sender: AnyObject) {
         guard let username = userNameTextField.text, let password = passwordTextField.text where !username.isEmpty && !password.isEmpty else {
@@ -50,32 +64,14 @@ class SignInViewController: UIViewController {
         PFUser.logInWithUsernameInBackground(username, password: password) {
             (user: PFUser?, error: NSError?) -> Void in
             MBProgressHUD.hideHUDForView(self.view, animated: true)
-            if user != nil {
-                // Do stuff after successful login.
-                let ailmentVC = self.storyboard?.instantiateViewControllerWithIdentifier("AilmetViewController") as! AilmetViewController
-                self.navigationController?.pushViewController(ailmentVC, animated: true)
-            } else {
-                // The login failed. Check error to see why.
-                let alertController = UIAlertController(title: "Error", message: error?.description, preferredStyle: UIAlertControllerStyle.Alert)
-                let alertAction = UIAlertAction(title: "Cancel", style: UIAlertActionStyle.Cancel, handler: nil)
-                alertController.addAction(alertAction)
-                self.presentViewController(alertController, animated: true, completion: nil)
-            }
+            self.pushToHomeScreen(user != nil, error: error)
         }
     }
 
     @IBAction func didTwitterLoginButtonTap(sender: AnyObject) {
         PFTwitterUtils.logInWithBlock {
             (user: PFUser?, error: NSError?) -> Void in
-            if let user = user {
-                if user.isNew {
-                    print("User signed up and logged in with Twitter!")
-                } else {
-                    print("User logged in with Twitter!")
-                }
-            } else {
-                print("Uh oh. The user cancelled the Twitter login.")
-            }
+            self.pushToHomeScreen(user != nil, error: error)
         }
     }
     
@@ -83,15 +79,7 @@ class SignInViewController: UIViewController {
         let permissions = ["public_profile", "email", "user_actions.fitness"]
         PFFacebookUtils.logInInBackgroundWithReadPermissions(permissions) {
             (user: PFUser?, error: NSError?) -> Void in
-            if let user = user {
-                if user.isNew {
-                    print("User signed up and logged in through Facebook!")
-                } else {
-                    print("User logged in through Facebook!")
-                }
-            } else {
-                print("Uh oh. The user cancelled the Facebook login.")
-            }
+            self.pushToHomeScreen(user != nil, error: error)
         }
     }
     

@@ -81,20 +81,23 @@ class SignUpViewController: UIViewController {
                 newUser.signUpInBackgroundWithBlock {
                     (succeeded: Bool, error: NSError?) -> Void in
                     MBProgressHUD.hideHUDForView(self.view, animated: true)
-
-                    if let error = error {
-                        let errorString = error.userInfo["error"] as! String
-                        let alertController = UIAlertController(title: "Error", message: errorString, preferredStyle: UIAlertControllerStyle.Alert)
-                        let alertAction = UIAlertAction(title: "Cancel", style: UIAlertActionStyle.Cancel, handler: nil)
-                        alertController.addAction(alertAction)
-                        self.presentViewController(alertController, animated: true, completion: nil)
-                    } else {
-                        // Hooray! Let them use the app now.
-                        let ailmentVC = self.storyboard?.instantiateViewControllerWithIdentifier("AilmetViewController") as! AilmetViewController
-                        self.navigationController?.pushViewController(ailmentVC, animated: true)
-                    }
+                    self.pushToHomeScreen(succeeded, error: error)
                 }
             }
+        }
+    }
+    
+    func pushToHomeScreen(loginSuccess: Bool, error: NSError?){
+        if loginSuccess {
+            // Do stuff after successful login.
+            let homeTabVC = UIStoryboard.HomeStoryBoard().instantiateInitialViewController() as! UITabBarController
+            self.view.window?.rootViewController = homeTabVC
+        } else {
+            // The login failed. Check error to see why.
+            let alertController = UIAlertController(title: "Error", message: error?.description, preferredStyle: UIAlertControllerStyle.Alert)
+            let alertAction = UIAlertAction(title: "Cancel", style: UIAlertActionStyle.Cancel, handler: nil)
+            alertController.addAction(alertAction)
+            self.presentViewController(alertController, animated: true, completion: nil)
         }
     }
     

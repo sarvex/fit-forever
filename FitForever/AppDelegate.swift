@@ -29,6 +29,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         PFFacebookUtils.initializeFacebookWithApplicationLaunchOptions(launchOptions)
         PFTwitterUtils.initializeWithConsumerKey(kTwiiterAPIKey,  consumerSecret: kTwitterAPISecret)
         
+        if PFUser.currentUser() != nil {
+            let homeTabVC = UIStoryboard.HomeStoryBoard().instantiateInitialViewController()
+            self.window?.rootViewController = homeTabVC
+        }
         return true
     }
 
@@ -124,4 +128,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
-

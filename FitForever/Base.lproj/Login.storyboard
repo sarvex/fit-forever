@@ -374,44 +374,6 @@
             </objects>
             <point key="canvasLocation" x="1715" y="182"/>
         </scene>
-        <!--Ailmet View Controller-->
-        <scene sceneID="aSb-de-Vzv">
-            <objects>
-                <viewController storyboardIdentifier="AilmetViewController" id="gnC-29-kr6" customClass="AilmetViewController" customModule="FitForever" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="fVF-zh-GPp"/>
-                        <viewControllerLayoutGuide type="bottom" id="1Ob-js-7r7"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="0cj-Hi-ljB">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Card View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Swp-Na-p6I">
-                                <rect key="frame" x="121" y="135" width="358" height="97"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="81"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="under Progress" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rle-ez-dVn">
-                                <rect key="frame" x="242" y="261" width="117" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="Rle-ez-dVn" firstAttribute="centerX" secondItem="0cj-Hi-ljB" secondAttribute="centerX" id="Dtj-2Z-Gp6"/>
-                            <constraint firstItem="Rle-ez-dVn" firstAttribute="top" secondItem="Swp-Na-p6I" secondAttribute="bottom" constant="29" id="ZVt-sf-m3k"/>
-                            <constraint firstItem="Swp-Na-p6I" firstAttribute="top" secondItem="fVF-zh-GPp" secondAttribute="bottom" constant="115" id="qhj-if-cMh"/>
-                            <constraint firstItem="Swp-Na-p6I" firstAttribute="centerX" secondItem="0cj-Hi-ljB" secondAttribute="centerX" id="shr-ya-Gtr"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qTo-jW-pzv" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2349" y="178"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="S33-NM-K3J">
             <objects>

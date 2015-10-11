@@ -11,10 +11,15 @@ import Parse
 
 class AilmetViewController: UIViewController {
 
+    @IBOutlet weak var ailmentTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.hidesBackButton = true
         self.navigationItem.backBarButtonItem = nil
+        
+        ailmentTableView.estimatedRowHeight = 275.0
+        ailmentTableView.rowHeight = UITableViewAutomaticDimension
         
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Sign Out", style: .Plain, target: self, action: Selector("signoutButtonTapped"))
     }
@@ -26,6 +31,24 @@ class AilmetViewController: UIViewController {
     
     func signoutButtonTapped() {
         PFUser.logOut()
-        self.navigationController?.popViewControllerAnimated(true)
+        let loginVC = UIStoryboard.loginStoryBoard().instantiateInitialViewController()
+        self.view.window?.rootViewController = loginVC
+    }
+    
+    //MARK: TableView Datasource and Delegate
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 3
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier("AilmentCardViewIdentifier", forIndexPath: indexPath) as! AilmentCardViewCell
+        
+        cell.updateConstraintsIfNeeded()
+        
+        return cell
     }
 }
