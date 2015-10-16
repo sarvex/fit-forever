@@ -8,10 +8,10 @@
 
 import UIKit
 
-class AilmentCardViewCell: UITableViewCell {
+class NewsFeedCell: UITableViewCell {
 
     @IBOutlet weak var cardView: UIView!
-    @IBOutlet weak var cardImageView: UIImageView!
+    @IBOutlet weak var profileImageView: UIImageView!
     @IBOutlet weak var ailmentDescriptionLabel: UILabel!
     
     override func awakeFromNib() {

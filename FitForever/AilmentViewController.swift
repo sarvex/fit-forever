@@ -1,5 +1,5 @@
 //
-//  AilmetViewController.swift
+//  AilmentViewController.swift
 //  FitForever
 //
 //  Created by Sahil Mahajan on 07/10/15.
@@ -9,7 +9,12 @@
 import UIKit
 import Parse
 
-class AilmetViewController: UIViewController {
+enum RowType: Int {
+    case NewsFeed
+    case Lifestyle
+}
+
+class AilmentViewController: UIViewController {
 
     @IBOutlet weak var ailmentTableView: UITableView!
     
@@ -45,7 +50,7 @@ class AilmetViewController: UIViewController {
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("AilmentCardViewIdentifier", forIndexPath: indexPath) as! AilmentCardViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("NewsFeedCellIdentifier", forIndexPath: indexPath) as! NewsFeedCell
         
         cell.updateConstraintsIfNeeded()
         
