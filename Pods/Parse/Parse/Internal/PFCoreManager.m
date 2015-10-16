@@ -305,7 +305,7 @@
     __block PFUserAuthenticationController *controller = nil;
     dispatch_sync(_controllerAccessQueue, ^{
         if (!_userAuthenticationController) {
-            _userAuthenticationController = [PFUserAuthenticationController controllerWithDataSource:self];
+            _userAuthenticationController = [[PFUserAuthenticationController alloc] init];
         }
         controller = _userAuthenticationController;
     });
@@ -339,8 +339,6 @@
     });
 }
 
-#if !TARGET_OS_WATCH
-
 ///--------------------------------------
 #pragma mark - Current Installation Controller
 ///--------------------------------------
@@ -367,8 +365,6 @@
         _currentInstallationController = controller;
     });
 }
-
-#endif
 
 ///--------------------------------------
 #pragma mark - Current User Controller
@@ -397,8 +393,6 @@
     });
 }
 
-#if !TARGET_OS_WATCH
-
 ///--------------------------------------
 #pragma mark - Installation Controller
 ///--------------------------------------
@@ -420,8 +414,6 @@
     });
 }
 
-#endif
-
 ///--------------------------------------
 #pragma mark - User Controller
 ///--------------------------------------
@@ -429,7 +421,7 @@
 - (PFUserController *)userController {
     __block PFUserController *controller = nil;
     dispatch_sync(_controllerAccessQueue, ^{
-        if (!_userController) {
+        if (!_installationController) {
             _userController = [PFUserController controllerWithCommonDataSource:self.dataSource
                                                                 coreDataSource:self];
         }

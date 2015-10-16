@@ -263,7 +263,6 @@ static BOOL PFObjectValueIsKindOfMutableContainerClass(id object) {
 
     } else if ([node isKindOfClass:[PFObject class]]) {
         PFObject *object = (PFObject *)node;
-        NSDictionary *toSearch = nil;
 
         @synchronized ([object lock]) {
             // Check for cycles of new objects.  Any such cycle means it will be
@@ -289,19 +288,18 @@ static BOOL PFObjectValueIsKindOfMutableContainerClass(id object) {
             // Recurse into this object's children looking for dirty children.
             // We only need to look at the child object's current estimated data,
             // because that's the only data that might need to be saved now.
-            toSearch = [object->_estimatedData.dictionaryRepresentation copy];
+            [self collectDirtyChildren:object->_estimatedData.dictionaryRepresentation
+                              children:dirtyChildren
+                                 files:dirtyFiles
+                                  seen:seen
+                               seenNew:seenNew
+                           currentUser:currentUser];
+
+            if ([object isDirty:NO]) {
+                [dirtyChildren addObject:object];
+            }
         }
 
-        [self collectDirtyChildren:toSearch
-                          children:dirtyChildren
-                             files:dirtyFiles
-                              seen:seen
-                           seenNew:seenNew
-                       currentUser:currentUser];
-
-        if ([object isDirty:NO]) {
-            [dirtyChildren addObject:object];
-        }
     } else if ([node isKindOfClass:[PFFile class]]) {
         PFFile *file = (PFFile *)node;
         if (!file.url) {

@@ -22,7 +22,7 @@
 @class SKPaymentQueue;
 @class SKPaymentTransaction;
 
-PF_WATCH_UNAVAILABLE @interface PFPurchaseController : NSObject
+@interface PFPurchaseController : NSObject
 
 @property (nonatomic, strong, readonly) id<PFCommandRunning> commandRunner;
 @property (nonatomic, strong, readonly) PFFileManager *fileManager;

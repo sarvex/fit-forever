@@ -1,1 +1,1 @@
-../../../ParseTwitterUtils/ParseTwitterUtils/ParseTwitterUtils.h
+../../../ParseTwitterUtils/ParseTwitterUtils.h

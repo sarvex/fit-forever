@@ -9,13 +9,9 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Parse/PFConstants.h>
-
-#if TARGET_OS_IOS
+#if TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
-#elif TARGET_OS_WATCH
-@class UIApplication;
-#elif TARGET_OS_MAC
+#else
 #import <AppKit/AppKit.h>
 @compatibility_alias UIApplication NSApplication;
 #endif

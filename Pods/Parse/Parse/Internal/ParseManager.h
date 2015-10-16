@@ -42,7 +42,7 @@ PFInstallationIdentifierStoreProvider>
 
 @property (nonatomic, strong) PFAnalyticsController *analyticsController;
 
-#if TARGET_OS_IOS
+#if TARGET_OS_IPHONE
 @property (nonatomic, strong) PFPurchaseController *purchaseController;
 #endif
 
