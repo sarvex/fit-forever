@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Parse
 
 enum RowType: Int {
     case NewsFeed
@@ -25,19 +24,11 @@ class AilmentViewController: UIViewController {
         
         ailmentTableView.estimatedRowHeight = 275.0
         ailmentTableView.rowHeight = UITableViewAutomaticDimension
-        
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Sign Out", style: .Plain, target: self, action: Selector("signoutButtonTapped"))
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    func signoutButtonTapped() {
-        PFUser.logOut()
-        let loginVC = UIStoryboard.loginStoryBoard().instantiateInitialViewController()
-        self.view.window?.rootViewController = loginVC
     }
     
     //MARK: TableView Datasource and Delegate

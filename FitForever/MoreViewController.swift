@@ -27,14 +27,18 @@ enum MoreItems :Int {
         case .HealthPackage:
             return "ic_health_package"
         case .DoctorsList:
-            return "ic_history"
-        case .History:
             return "ic_find_doctor"
+        case .History:
+            return "ic_history"
         }
     }
 }
 
 import UIKit
+
+let kHealthPackageSequeIdentifier = "pushHealthPackageView"
+let kDoctorListSequeIdentifier = "pushDoctorListView"
+let kHistorySequeIdentifier = "pushHistoryView"
 
 class MoreViewController: UITableViewController {
 
@@ -73,7 +77,16 @@ class MoreViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        
+        let itemSelected = MoreItems(rawValue: indexPath.row)!
+        switch itemSelected {
+        case .HealthPackage:
+            performSegueWithIdentifier(kHealthPackageSequeIdentifier, sender: nil)
+        case .DoctorsList:
+            performSegueWithIdentifier(kDoctorListSequeIdentifier, sender: nil)
+        case .History:
+            performSegueWithIdentifier(kHistorySequeIdentifier, sender: nil)
+        }
+
     }
 
     // Override to support rearranging the table view.
@@ -87,14 +100,11 @@ class MoreViewController: UITableViewController {
         return true
     }
 
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        
     }
-    */
 
 }

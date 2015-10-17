@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		BA236D141BD1340800B64742 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D131BD1340800B64742 /* MoreViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BA236D201BD19A3A00B64742 /* AskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D1F1BD19A3A00B64742 /* AskViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BA236D221BD19A4A00B64742 /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D211BD19A4A00B64742 /* WalletViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BA236D241BD19A5A00B64742 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D231BD19A5A00B64742 /* SearchViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BA236D261BD19A6900B64742 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D251BD19A6900B64742 /* ProfileViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BA236D281BD19A8300B64742 /* HealthPackageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D271BD19A8300B64742 /* HealthPackageViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BA236D2A1BD19A9200B64742 /* DoctorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D291BD19A9200B64742 /* DoctorListViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BA236D2C1BD19AA000B64742 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D2B1BD19AA000B64742 /* HistoryViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BA236D2F1BD19ADA00B64742 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D2E1BD19ADA00B64742 /* NotificationViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		BA2A87551BCA97F00076F86A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2A87541BCA97F00076F86A /* Extensions.swift */; settings = {ASSET_TAGS = (); }; };
 		BA2A87591BCA9D750076F86A /* NewsFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2A87581BCA9D750076F86A /* NewsFeedCell.swift */; settings = {ASSET_TAGS = (); }; };
 		BA63D8C61BD0B9EF00A3BC02 /* LifeStyleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA63D8C51BD0B9EF00A3BC02 /* LifeStyleCell.swift */; settings = {ASSET_TAGS = (); }; };
@@ -52,6 +60,14 @@
 		4D7320EC273A0DD36BF41312 /* Pods-FitForever.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitForever.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitForever/Pods-FitForever.release.xcconfig"; sourceTree = "<group>"; };
 		69767E0D88BEA9BF24C84AF9 /* Pods_FitForever.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitForever.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA236D131BD1340800B64742 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		BA236D1F1BD19A3A00B64742 /* AskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskViewController.swift; sourceTree = "<group>"; };
+		BA236D211BD19A4A00B64742 /* WalletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
+		BA236D231BD19A5A00B64742 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		BA236D251BD19A6900B64742 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BA236D271BD19A8300B64742 /* HealthPackageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthPackageViewController.swift; sourceTree = "<group>"; };
+		BA236D291BD19A9200B64742 /* DoctorListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorListViewController.swift; sourceTree = "<group>"; };
+		BA236D2B1BD19AA000B64742 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		BA236D2E1BD19ADA00B64742 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		BA2A87541BCA97F00076F86A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		BA2A87581BCA9D750076F86A /* NewsFeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedCell.swift; sourceTree = "<group>"; };
 		BA63D8C51BD0B9EF00A3BC02 /* LifeStyleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeStyleCell.swift; sourceTree = "<group>"; };
@@ -118,6 +134,99 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BA236D151BD15C3700B64742 /* HealthPackage */ = {
+			isa = PBXGroup;
+			children = (
+				BA236D271BD19A8300B64742 /* HealthPackageViewController.swift */,
+			);
+			name = HealthPackage;
+			sourceTree = "<group>";
+		};
+		BA236D161BD15C4400B64742 /* Ailment */ = {
+			isa = PBXGroup;
+			children = (
+				BA7B695C1BC4EA0A00E144F6 /* AilmentViewController.swift */,
+				BA2A87581BCA9D750076F86A /* NewsFeedCell.swift */,
+				BA63D8C51BD0B9EF00A3BC02 /* LifeStyleCell.swift */,
+			);
+			name = Ailment;
+			sourceTree = "<group>";
+		};
+		BA236D171BD15C4C00B64742 /* Doctor List */ = {
+			isa = PBXGroup;
+			children = (
+				BA236D291BD19A9200B64742 /* DoctorListViewController.swift */,
+			);
+			name = "Doctor List";
+			sourceTree = "<group>";
+		};
+		BA236D181BD15C5A00B64742 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				BA236D231BD19A5A00B64742 /* SearchViewController.swift */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		BA236D191BD15C6700B64742 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BA6CED821BCA65AD00890140 /* Home.storyboard */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		BA236D1A1BD15C7900B64742 /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				BA236D211BD19A4A00B64742 /* WalletViewController.swift */,
+			);
+			name = Wallet;
+			sourceTree = "<group>";
+		};
+		BA236D1B1BD15C8500B64742 /* Ask */ = {
+			isa = PBXGroup;
+			children = (
+				BA236D1F1BD19A3A00B64742 /* AskViewController.swift */,
+			);
+			name = Ask;
+			sourceTree = "<group>";
+		};
+		BA236D1C1BD15E7300B64742 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				BA236D251BD19A6900B64742 /* ProfileViewController.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		BA236D1D1BD199DC00B64742 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				BA236D131BD1340800B64742 /* MoreViewController.swift */,
+				BA236D151BD15C3700B64742 /* HealthPackage */,
+				BA236D171BD15C4C00B64742 /* Doctor List */,
+				BA236D1E1BD199EB00B64742 /* History */,
+			);
+			name = More;
+			sourceTree = "<group>";
+		};
+		BA236D1E1BD199EB00B64742 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				BA236D2B1BD19AA000B64742 /* HistoryViewController.swift */,
+			);
+			name = History;
+			sourceTree = "<group>";
+		};
+		BA236D2D1BD19AC400B64742 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				BA236D2E1BD19ADA00B64742 /* NotificationViewController.swift */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
 		BA7B69161BC2C4AB00E144F6 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +253,14 @@
 		BA7B69211BC2C4AC00E144F6 /* FitForever */ = {
 			isa = PBXGroup;
 			children = (
+				BA236D191BD15C6700B64742 /* Home */,
+				BA236D161BD15C4400B64742 /* Ailment */,
+				BA236D1B1BD15C8500B64742 /* Ask */,
+				BA236D1A1BD15C7900B64742 /* Wallet */,
+				BA236D1D1BD199DC00B64742 /* More */,
+				BA236D181BD15C5A00B64742 /* Search */,
+				BA236D1C1BD15E7300B64742 /* Profile */,
+				BA236D2D1BD19AC400B64742 /* Notification */,
 				BA7B69591BC469D800E144F6 /* Auth */,
 				BA7B69221BC2C4AC00E144F6 /* AppDelegate.swift */,
 				BA7B692C1BC2C4AC00E144F6 /* Assets.xcassets */,
@@ -152,12 +269,7 @@
 				BA7B69291BC2C4AC00E144F6 /* FitForever.xcdatamodeld */,
 				BA7B69551BC4183700E144F6 /* Constants.swift */,
 				BA7B695A1BC46A1500E144F6 /* Utility.swift */,
-				BA7B695C1BC4EA0A00E144F6 /* AilmentViewController.swift */,
-				BA6CED821BCA65AD00890140 /* Home.storyboard */,
 				BA2A87541BCA97F00076F86A /* Extensions.swift */,
-				BA2A87581BCA9D750076F86A /* NewsFeedCell.swift */,
-				BA63D8C51BD0B9EF00A3BC02 /* LifeStyleCell.swift */,
-				BA236D131BD1340800B64742 /* MoreViewController.swift */,
 			);
 			path = FitForever;
 			sourceTree = "<group>";
@@ -399,16 +511,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA236D241BD19A5A00B64742 /* SearchViewController.swift in Sources */,
 				BA7B695D1BC4EA0B00E144F6 /* AilmentViewController.swift in Sources */,
 				BA7B695B1BC46A1500E144F6 /* Utility.swift in Sources */,
 				BA7B69581BC45E9300E144F6 /* SignUpViewController.swift in Sources */,
 				BA63D8C61BD0B9EF00A3BC02 /* LifeStyleCell.swift in Sources */,
 				BA7B69561BC4183700E144F6 /* Constants.swift in Sources */,
+				BA236D261BD19A6900B64742 /* ProfileViewController.swift in Sources */,
+				BA236D2A1BD19A9200B64742 /* DoctorListViewController.swift in Sources */,
+				BA236D281BD19A8300B64742 /* HealthPackageViewController.swift in Sources */,
 				BA7B692B1BC2C4AC00E144F6 /* FitForever.xcdatamodeld in Sources */,
+				BA236D2F1BD19ADA00B64742 /* NotificationViewController.swift in Sources */,
+				BA236D201BD19A3A00B64742 /* AskViewController.swift in Sources */,
 				BA2A87591BCA9D750076F86A /* NewsFeedCell.swift in Sources */,
 				BA2A87551BCA97F00076F86A /* Extensions.swift in Sources */,
+				BA236D221BD19A4A00B64742 /* WalletViewController.swift in Sources */,
 				BA7B69541BC416CC00E144F6 /* FacebookManager.swift in Sources */,
 				BA236D141BD1340800B64742 /* MoreViewController.swift in Sources */,
+				BA236D2C1BD19AA000B64742 /* HistoryViewController.swift in Sources */,
 				BA7B69251BC2C4AC00E144F6 /* SignInViewController.swift in Sources */,
 				BA7B69231BC2C4AC00E144F6 /* AppDelegate.swift in Sources */,
 			);
