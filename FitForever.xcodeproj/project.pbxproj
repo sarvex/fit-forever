@@ -21,6 +21,7 @@
 		BA236D351BD2352700B64742 /* ColorAndFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D341BD2352700B64742 /* ColorAndFont.swift */; settings = {ASSET_TAGS = (); }; };
 		BA2A87551BCA97F00076F86A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2A87541BCA97F00076F86A /* Extensions.swift */; settings = {ASSET_TAGS = (); }; };
 		BA2A87591BCA9D750076F86A /* NewsFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2A87581BCA9D750076F86A /* NewsFeedCell.swift */; settings = {ASSET_TAGS = (); }; };
+		BA3303281BD3C4480034CE19 /* AilmentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3303271BD3C4480034CE19 /* AilmentDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		BA63D8C61BD0B9EF00A3BC02 /* LifeStyleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA63D8C51BD0B9EF00A3BC02 /* LifeStyleCell.swift */; settings = {ASSET_TAGS = (); }; };
 		BA6CED831BCA65AD00890140 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6CED821BCA65AD00890140 /* Home.storyboard */; settings = {ASSET_TAGS = (); }; };
 		BA7ABAC21BC99F2200F72108 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA7ABAC11BC99F2200F72108 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -76,6 +77,7 @@
 		BA236D341BD2352700B64742 /* ColorAndFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorAndFont.swift; sourceTree = "<group>"; };
 		BA2A87541BCA97F00076F86A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		BA2A87581BCA9D750076F86A /* NewsFeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedCell.swift; sourceTree = "<group>"; };
+		BA3303271BD3C4480034CE19 /* AilmentDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AilmentDetailViewController.swift; sourceTree = "<group>"; };
 		BA63D8C51BD0B9EF00A3BC02 /* LifeStyleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeStyleCell.swift; sourceTree = "<group>"; };
 		BA6CED821BCA65AD00890140 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		BA7ABAC11BC99F2200F72108 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
@@ -154,6 +156,7 @@
 				BA7B695C1BC4EA0A00E144F6 /* AilmentViewController.swift */,
 				BA2A87581BCA9D750076F86A /* NewsFeedCell.swift */,
 				BA63D8C51BD0B9EF00A3BC02 /* LifeStyleCell.swift */,
+				BA3303271BD3C4480034CE19 /* AilmentDetailViewController.swift */,
 			);
 			name = Ailment;
 			sourceTree = "<group>";
@@ -528,6 +531,7 @@
 				BA63D8C61BD0B9EF00A3BC02 /* LifeStyleCell.swift in Sources */,
 				BA7B69561BC4183700E144F6 /* Constants.swift in Sources */,
 				BA236D261BD19A6900B64742 /* ProfileViewController.swift in Sources */,
+				BA3303281BD3C4480034CE19 /* AilmentDetailViewController.swift in Sources */,
 				BA236D2A1BD19A9200B64742 /* DoctorListViewController.swift in Sources */,
 				BA236D281BD19A8300B64742 /* HealthPackageViewController.swift in Sources */,
 				BA7B692B1BC2C4AC00E144F6 /* FitForever.xcdatamodeld in Sources */,
