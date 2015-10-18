@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '285E5393BBAE54C63A732C88'
-               BlueprintName = 'TransitionKit'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'TransitionKit.framework'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "681BA1CC752AA82A0DF36A8738A11BA4"
+               BlueprintName = "TransitionKit"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "TransitionKit">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

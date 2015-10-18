@@ -17,6 +17,7 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var mobileTextField: UITextField!
+    @IBOutlet weak var dobTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,6 +32,7 @@ class SignUpViewController: UIViewController {
         usernameTextField.text = nil
         passwordTextField.text = nil
         mobileTextField.text = nil
+        dobTextField = nil
     }
     
     override func didReceiveMemoryWarning() {
@@ -68,16 +70,19 @@ class SignUpViewController: UIViewController {
                 let progressView = MBProgressHUD.showHUDAddedTo(self.view, animated: true)
                 progressView.labelText = "Signing Up..."
                 let newUser = PFUser()
+                newUser[kUserFullName] = name
                 newUser.username = username
                 newUser.password = password
                 if let email = emailTextField.text {
                     newUser.email = email
                 }
                 if let phone = mobileTextField.text {
-                    newUser["phone"] = phone
+                    newUser[kUserPhoneKey] = phone
                 }
                 // other fields can be set just like with PFObject
-                
+                if let dob = mobileTextField.text {
+                    newUser[kUserDOBKey] = dob
+                }
                 newUser.signUpInBackgroundWithBlock {
                     (succeeded: Bool, error: NSError?) -> Void in
                     MBProgressHUD.hideHUDForView(self.view, animated: true)

@@ -16,6 +16,9 @@
 		BA236D2A1BD19A9200B64742 /* DoctorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D291BD19A9200B64742 /* DoctorListViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		BA236D2C1BD19AA000B64742 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D2B1BD19AA000B64742 /* HistoryViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		BA236D2F1BD19ADA00B64742 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D2E1BD19ADA00B64742 /* NotificationViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BA236D311BD22AAE00B64742 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D301BD22AAE00B64742 /* ProfileTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		BA236D331BD230DA00B64742 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D321BD230DA00B64742 /* Strings.swift */; settings = {ASSET_TAGS = (); }; };
+		BA236D351BD2352700B64742 /* ColorAndFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D341BD2352700B64742 /* ColorAndFont.swift */; settings = {ASSET_TAGS = (); }; };
 		BA2A87551BCA97F00076F86A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2A87541BCA97F00076F86A /* Extensions.swift */; settings = {ASSET_TAGS = (); }; };
 		BA2A87591BCA9D750076F86A /* NewsFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2A87581BCA9D750076F86A /* NewsFeedCell.swift */; settings = {ASSET_TAGS = (); }; };
 		BA63D8C61BD0B9EF00A3BC02 /* LifeStyleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA63D8C51BD0B9EF00A3BC02 /* LifeStyleCell.swift */; settings = {ASSET_TAGS = (); }; };
@@ -68,6 +71,9 @@
 		BA236D291BD19A9200B64742 /* DoctorListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorListViewController.swift; sourceTree = "<group>"; };
 		BA236D2B1BD19AA000B64742 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		BA236D2E1BD19ADA00B64742 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		BA236D301BD22AAE00B64742 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		BA236D321BD230DA00B64742 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		BA236D341BD2352700B64742 /* ColorAndFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorAndFont.swift; sourceTree = "<group>"; };
 		BA2A87541BCA97F00076F86A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		BA2A87581BCA9D750076F86A /* NewsFeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedCell.swift; sourceTree = "<group>"; };
 		BA63D8C51BD0B9EF00A3BC02 /* LifeStyleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeStyleCell.swift; sourceTree = "<group>"; };
@@ -196,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				BA236D251BD19A6900B64742 /* ProfileViewController.swift */,
+				BA236D301BD22AAE00B64742 /* ProfileTableViewCell.swift */,
 			);
 			name = Profile;
 			sourceTree = "<group>";
@@ -270,6 +277,8 @@
 				BA7B69551BC4183700E144F6 /* Constants.swift */,
 				BA7B695A1BC46A1500E144F6 /* Utility.swift */,
 				BA2A87541BCA97F00076F86A /* Extensions.swift */,
+				BA236D321BD230DA00B64742 /* Strings.swift */,
+				BA236D341BD2352700B64742 /* ColorAndFont.swift */,
 			);
 			path = FitForever;
 			sourceTree = "<group>";
@@ -513,6 +522,7 @@
 			files = (
 				BA236D241BD19A5A00B64742 /* SearchViewController.swift in Sources */,
 				BA7B695D1BC4EA0B00E144F6 /* AilmentViewController.swift in Sources */,
+				BA236D351BD2352700B64742 /* ColorAndFont.swift in Sources */,
 				BA7B695B1BC46A1500E144F6 /* Utility.swift in Sources */,
 				BA7B69581BC45E9300E144F6 /* SignUpViewController.swift in Sources */,
 				BA63D8C61BD0B9EF00A3BC02 /* LifeStyleCell.swift in Sources */,
@@ -523,9 +533,11 @@
 				BA7B692B1BC2C4AC00E144F6 /* FitForever.xcdatamodeld in Sources */,
 				BA236D2F1BD19ADA00B64742 /* NotificationViewController.swift in Sources */,
 				BA236D201BD19A3A00B64742 /* AskViewController.swift in Sources */,
+				BA236D331BD230DA00B64742 /* Strings.swift in Sources */,
 				BA2A87591BCA9D750076F86A /* NewsFeedCell.swift in Sources */,
 				BA2A87551BCA97F00076F86A /* Extensions.swift in Sources */,
 				BA236D221BD19A4A00B64742 /* WalletViewController.swift in Sources */,
+				BA236D311BD22AAE00B64742 /* ProfileTableViewCell.swift in Sources */,
 				BA7B69541BC416CC00E144F6 /* FacebookManager.swift in Sources */,
 				BA236D141BD1340800B64742 /* MoreViewController.swift in Sources */,
 				BA236D2C1BD19AA000B64742 /* HistoryViewController.swift in Sources */,
