@@ -101,6 +101,9 @@ class ProfileViewController: UIViewController, UITextFieldDelegate, UIImagePicke
     @IBOutlet weak var dobPickerView: UIDatePicker!
     @IBOutlet weak var dobContianerView: UIView!
     @IBOutlet weak var saveButton: UIBarButtonItem!
+    
+    weak var changePasswordTextField: UITextField!
+    
     var isfacebookAccountLinked = false
     var fullName: String?
     var dob: String?
@@ -255,6 +258,25 @@ class ProfileViewController: UIViewController, UITextFieldDelegate, UIImagePicke
             self.dismissViewControllerAnimated(true, completion: nil)
             let loginVC = UIStoryboard.loginStoryBoard().instantiateInitialViewController()
             self.view.window?.rootViewController = loginVC
+        }
+        if tableSection == .ChangePassword {
+            let alertController = UIAlertController(title: "Change Password", message: "Enter your new password", preferredStyle: UIAlertControllerStyle.Alert)
+            alertController.addTextFieldWithConfigurationHandler({ (textField) -> Void in
+                self.changePasswordTextField = textField
+                self.changePasswordTextField.delegate = self //REQUIRED
+                self.changePasswordTextField.placeholder = "New Password"
+                self.changePasswordTextField.secureTextEntry = true
+            })
+            alertController.addAction(UIAlertAction(title: "Submit", style: UIAlertActionStyle.Default, handler: { (action: UIAlertAction) -> Void in
+                if let text = self.changePasswordTextField.text where !text.isEmpty {
+                    PFUser.currentUser()?.password = self.changePasswordTextField.text
+                    PFUser.currentUser()?.saveInBackground()
+                }
+            }))
+            alertController.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.Cancel, handler: { (action: UIAlertAction) -> Void in
+                
+            }))
+            self.presentViewController(alertController, animated: true, completion: nil)
         }
     }
     
@@ -467,7 +489,6 @@ class ProfileViewController: UIViewController, UITextFieldDelegate, UIImagePicke
     }
     
     func updateHeaderView() {
-
         var tableRect = profileTableView.frame
         var headerRect = profileImageView.frame
        

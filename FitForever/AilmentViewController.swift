@@ -37,14 +37,19 @@ class AilmentViewController: UIViewController {
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return 6
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("NewsFeedCellIdentifier", forIndexPath: indexPath) as! NewsFeedCell
-        
-        cell.updateConstraintsIfNeeded()
-        
-        return cell
+        if indexPath.row%2 == 0 {
+            let cell = tableView.dequeueReusableCellWithIdentifier("NewsFeedCellIdentifier", forIndexPath: indexPath) as! NewsFeedCell
+            cell.updateConstraintsIfNeeded()
+            return cell
+        }
+        else {
+            let cell = tableView.dequeueReusableCellWithIdentifier("LifeStyleCellIdentifier", forIndexPath: indexPath) as! LifeStyleCell
+            cell.updateConstraintsIfNeeded()
+            return cell
+        }
     }
 }

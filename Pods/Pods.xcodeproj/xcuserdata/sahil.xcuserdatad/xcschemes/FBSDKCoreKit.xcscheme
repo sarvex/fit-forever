@@ -17,7 +17,7 @@
                BlueprintIdentifier = "F5ACF367AE3BD7A7F2AF2D430901DF7B"
                BlueprintName = "FBSDKCoreKit"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "FBSDKCoreKit">
+               BuildableName = "FBSDKCoreKit.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

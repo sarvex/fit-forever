@@ -17,7 +17,7 @@
                BlueprintIdentifier = "A2FB4CEEDE0C386E23BB48F2880F2805"
                BlueprintName = "RestKit"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "RestKit">
+               BuildableName = "RestKit.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

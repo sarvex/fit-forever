@@ -17,7 +17,7 @@
                BlueprintIdentifier = "353D1A7AA4A7EF27312BA989C5A9CBEA"
                BlueprintName = "RKValueTransformers"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "RKValueTransformers">
+               BuildableName = "RKValueTransformers.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

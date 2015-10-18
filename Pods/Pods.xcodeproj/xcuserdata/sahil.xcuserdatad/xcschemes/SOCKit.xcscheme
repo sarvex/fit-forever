@@ -17,7 +17,7 @@
                BlueprintIdentifier = "59203A9EABAD457371179E94833DA132"
                BlueprintName = "SOCKit"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "SOCKit">
+               BuildableName = "SOCKit.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

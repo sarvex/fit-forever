@@ -17,7 +17,7 @@
                BlueprintIdentifier = "681BA1CC752AA82A0DF36A8738A11BA4"
                BlueprintName = "TransitionKit"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "TransitionKit">
+               BuildableName = "TransitionKit.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -17,7 +17,7 @@
                BlueprintIdentifier = "5E178B1215330768A25A9B2CE3E569E8"
                BlueprintName = "Pods-FitForever"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "Pods-FitForever">
+               BuildableName = "Pods_FitForever.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
