@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA236D141BD1340800B64742 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D131BD1340800B64742 /* MoreViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		BA236D201BD19A3A00B64742 /* AskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D1F1BD19A3A00B64742 /* AskViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		BA236D221BD19A4A00B64742 /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D211BD19A4A00B64742 /* WalletViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		BA236D241BD19A5A00B64742 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D231BD19A5A00B64742 /* SearchViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		BA236D261BD19A6900B64742 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D251BD19A6900B64742 /* ProfileViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		BA236D281BD19A8300B64742 /* HealthPackageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D271BD19A8300B64742 /* HealthPackageViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		BA236D2A1BD19A9200B64742 /* DoctorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D291BD19A9200B64742 /* DoctorListViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		BA236D2C1BD19AA000B64742 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D2B1BD19AA000B64742 /* HistoryViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		BA236D2F1BD19ADA00B64742 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D2E1BD19ADA00B64742 /* NotificationViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		BA236D311BD22AAE00B64742 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D301BD22AAE00B64742 /* ProfileTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
-		BA236D331BD230DA00B64742 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D321BD230DA00B64742 /* Strings.swift */; settings = {ASSET_TAGS = (); }; };
-		BA236D351BD2352700B64742 /* ColorAndFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D341BD2352700B64742 /* ColorAndFont.swift */; settings = {ASSET_TAGS = (); }; };
-		BA2A87551BCA97F00076F86A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2A87541BCA97F00076F86A /* Extensions.swift */; settings = {ASSET_TAGS = (); }; };
-		BA2A87591BCA9D750076F86A /* NewsFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2A87581BCA9D750076F86A /* NewsFeedCell.swift */; settings = {ASSET_TAGS = (); }; };
-		BA3303281BD3C4480034CE19 /* AilmentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3303271BD3C4480034CE19 /* AilmentDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		BA63D8C61BD0B9EF00A3BC02 /* LifeStyleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA63D8C51BD0B9EF00A3BC02 /* LifeStyleCell.swift */; settings = {ASSET_TAGS = (); }; };
-		BA6CED831BCA65AD00890140 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6CED821BCA65AD00890140 /* Home.storyboard */; settings = {ASSET_TAGS = (); }; };
+		BA236D141BD1340800B64742 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D131BD1340800B64742 /* MoreViewController.swift */; };
+		BA236D201BD19A3A00B64742 /* AskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D1F1BD19A3A00B64742 /* AskViewController.swift */; };
+		BA236D221BD19A4A00B64742 /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D211BD19A4A00B64742 /* WalletViewController.swift */; };
+		BA236D241BD19A5A00B64742 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D231BD19A5A00B64742 /* SearchViewController.swift */; };
+		BA236D261BD19A6900B64742 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D251BD19A6900B64742 /* ProfileViewController.swift */; };
+		BA236D281BD19A8300B64742 /* HealthPackageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D271BD19A8300B64742 /* HealthPackageViewController.swift */; };
+		BA236D2A1BD19A9200B64742 /* DoctorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D291BD19A9200B64742 /* DoctorListViewController.swift */; };
+		BA236D2C1BD19AA000B64742 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D2B1BD19AA000B64742 /* HistoryViewController.swift */; };
+		BA236D2F1BD19ADA00B64742 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D2E1BD19ADA00B64742 /* NotificationViewController.swift */; };
+		BA236D311BD22AAE00B64742 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D301BD22AAE00B64742 /* ProfileTableViewCell.swift */; };
+		BA236D331BD230DA00B64742 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D321BD230DA00B64742 /* Strings.swift */; };
+		BA236D351BD2352700B64742 /* ColorAndFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D341BD2352700B64742 /* ColorAndFont.swift */; };
+		BA2A87551BCA97F00076F86A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2A87541BCA97F00076F86A /* Extensions.swift */; };
+		BA2A87591BCA9D750076F86A /* NewsFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2A87581BCA9D750076F86A /* NewsFeedCell.swift */; };
+		BA3303281BD3C4480034CE19 /* AilmentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3303271BD3C4480034CE19 /* AilmentDetailViewController.swift */; };
+		BA63D8C61BD0B9EF00A3BC02 /* LifeStyleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA63D8C51BD0B9EF00A3BC02 /* LifeStyleCell.swift */; };
+		BA6CED831BCA65AD00890140 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6CED821BCA65AD00890140 /* Home.storyboard */; };
 		BA7ABAC21BC99F2200F72108 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA7ABAC11BC99F2200F72108 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		BA7ABAC41BC99F2B00F72108 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA7ABAC31BC99F2B00F72108 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		BA7ABACC1BC9B32800F72108 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA7ABACB1BC9B32800F72108 /* GoogleService-Info.plist */; settings = {ASSET_TAGS = (); }; };
+		BA7ABACC1BC9B32800F72108 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA7ABACB1BC9B32800F72108 /* GoogleService-Info.plist */; };
 		BA7B69231BC2C4AC00E144F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B69221BC2C4AC00E144F6 /* AppDelegate.swift */; };
 		BA7B69251BC2C4AC00E144F6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B69241BC2C4AC00E144F6 /* SignInViewController.swift */; };
 		BA7B69281BC2C4AC00E144F6 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA7B69261BC2C4AC00E144F6 /* Login.storyboard */; };
@@ -35,11 +35,15 @@
 		BA7B69301BC2C4AC00E144F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA7B692E1BC2C4AC00E144F6 /* LaunchScreen.storyboard */; };
 		BA7B693B1BC2C4AC00E144F6 /* FitForeverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B693A1BC2C4AC00E144F6 /* FitForeverTests.swift */; };
 		BA7B69461BC2C4AC00E144F6 /* FitForeverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B69451BC2C4AC00E144F6 /* FitForeverUITests.swift */; };
-		BA7B69541BC416CC00E144F6 /* FacebookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B69531BC416CC00E144F6 /* FacebookManager.swift */; settings = {ASSET_TAGS = (); }; };
-		BA7B69561BC4183700E144F6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B69551BC4183700E144F6 /* Constants.swift */; settings = {ASSET_TAGS = (); }; };
-		BA7B69581BC45E9300E144F6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B69571BC45E9300E144F6 /* SignUpViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		BA7B695B1BC46A1500E144F6 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B695A1BC46A1500E144F6 /* Utility.swift */; settings = {ASSET_TAGS = (); }; };
-		BA7B695D1BC4EA0B00E144F6 /* AilmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B695C1BC4EA0A00E144F6 /* AilmentViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BA7B69541BC416CC00E144F6 /* FacebookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B69531BC416CC00E144F6 /* FacebookManager.swift */; };
+		BA7B69561BC4183700E144F6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B69551BC4183700E144F6 /* Constants.swift */; };
+		BA7B69581BC45E9300E144F6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B69571BC45E9300E144F6 /* SignUpViewController.swift */; };
+		BA7B695B1BC46A1500E144F6 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B695A1BC46A1500E144F6 /* Utility.swift */; };
+		BA7B695D1BC4EA0B00E144F6 /* AilmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B695C1BC4EA0A00E144F6 /* AilmentViewController.swift */; };
+		BAE063061C09C8DD00495000 /* CustomTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE063051C09C8DD00495000 /* CustomTabViewController.swift */; };
+		BAE063081C09C9F500495000 /* CustomRelationshipSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE063071C09C9F500495000 /* CustomRelationshipSegue.swift */; };
+		BAE0630A1C0AAD2000495000 /* mosquito.png in Resources */ = {isa = PBXBuildFile; fileRef = BAE063091C0AAD2000495000 /* mosquito.png */; };
+		BAF5E6741C0AD15A00013E83 /* SuggestedDoctorsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF5E6731C0AD15A00013E83 /* SuggestedDoctorsCell.swift */; };
 		F1565E84BBAFA7BB2BE106FA /* Pods_FitForever.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69767E0D88BEA9BF24C84AF9 /* Pods_FitForever.framework */; };
 /* End PBXBuildFile section */
 
@@ -102,6 +106,10 @@
 		BA7B69571BC45E9300E144F6 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		BA7B695A1BC46A1500E144F6 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		BA7B695C1BC4EA0A00E144F6 /* AilmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AilmentViewController.swift; sourceTree = "<group>"; };
+		BAE063051C09C8DD00495000 /* CustomTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabViewController.swift; sourceTree = "<group>"; };
+		BAE063071C09C9F500495000 /* CustomRelationshipSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomRelationshipSegue.swift; sourceTree = "<group>"; };
+		BAE063091C0AAD2000495000 /* mosquito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mosquito.png; sourceTree = "<group>"; };
+		BAF5E6731C0AD15A00013E83 /* SuggestedDoctorsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestedDoctorsCell.swift; sourceTree = "<group>"; };
 		C921EA658E686C973F34CEEF /* Pods-FitForever.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitForever.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitForever/Pods-FitForever.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -157,6 +165,7 @@
 				BA2A87581BCA9D750076F86A /* NewsFeedCell.swift */,
 				BA63D8C51BD0B9EF00A3BC02 /* LifeStyleCell.swift */,
 				BA3303271BD3C4480034CE19 /* AilmentDetailViewController.swift */,
+				BAF5E6731C0AD15A00013E83 /* SuggestedDoctorsCell.swift */,
 			);
 			name = Ailment;
 			sourceTree = "<group>";
@@ -181,6 +190,8 @@
 			isa = PBXGroup;
 			children = (
 				BA6CED821BCA65AD00890140 /* Home.storyboard */,
+				BAE063051C09C8DD00495000 /* CustomTabViewController.swift */,
+				BAE063071C09C9F500495000 /* CustomRelationshipSegue.swift */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -263,6 +274,7 @@
 		BA7B69211BC2C4AC00E144F6 /* FitForever */ = {
 			isa = PBXGroup;
 			children = (
+				BAE063091C0AAD2000495000 /* mosquito.png */,
 				BA236D191BD15C6700B64742 /* Home */,
 				BA236D161BD15C4400B64742 /* Ailment */,
 				BA236D1B1BD15C8500B64742 /* Ask */,
@@ -434,6 +446,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA7B69301BC2C4AC00E144F6 /* LaunchScreen.storyboard in Resources */,
+				BAE0630A1C0AAD2000495000 /* mosquito.png in Resources */,
 				BA6CED831BCA65AD00890140 /* Home.storyboard in Resources */,
 				BA7ABACC1BC9B32800F72108 /* GoogleService-Info.plist in Resources */,
 				BA7B692D1BC2C4AC00E144F6 /* Assets.xcassets in Resources */,
@@ -535,7 +548,9 @@
 				BA236D2A1BD19A9200B64742 /* DoctorListViewController.swift in Sources */,
 				BA236D281BD19A8300B64742 /* HealthPackageViewController.swift in Sources */,
 				BA7B692B1BC2C4AC00E144F6 /* FitForever.xcdatamodeld in Sources */,
+				BAE063081C09C9F500495000 /* CustomRelationshipSegue.swift in Sources */,
 				BA236D2F1BD19ADA00B64742 /* NotificationViewController.swift in Sources */,
+				BAF5E6741C0AD15A00013E83 /* SuggestedDoctorsCell.swift in Sources */,
 				BA236D201BD19A3A00B64742 /* AskViewController.swift in Sources */,
 				BA236D331BD230DA00B64742 /* Strings.swift in Sources */,
 				BA2A87591BCA9D750076F86A /* NewsFeedCell.swift in Sources */,
@@ -547,6 +562,7 @@
 				BA236D2C1BD19AA000B64742 /* HistoryViewController.swift in Sources */,
 				BA7B69251BC2C4AC00E144F6 /* SignInViewController.swift in Sources */,
 				BA7B69231BC2C4AC00E144F6 /* AppDelegate.swift in Sources */,
+				BAE063061C09C8DD00495000 /* CustomTabViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -691,6 +707,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FitForever/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fitforever.FitForever;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -706,6 +723,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FitForever/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fitforever.FitForever;
 				PRODUCT_NAME = "$(TARGET_NAME)";

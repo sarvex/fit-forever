@@ -37,7 +37,7 @@ class SignInViewController: UIViewController {
     func pushToHomeScreen(loginSuccess: Bool, error: NSError?){
         if loginSuccess {
             // Do stuff after successful login.
-            let homeTabVC = UIStoryboard.HomeStoryBoard().instantiateInitialViewController() as! UITabBarController
+            let homeTabVC = UIStoryboard.HomeStoryBoard().instantiateViewControllerWithIdentifier("CustomTabViewController") as! CustomTabViewController
             self.view.window?.rootViewController = homeTabVC
         } else {
             // The login failed. Check error to see why.
@@ -50,6 +50,8 @@ class SignInViewController: UIViewController {
     
     //MARK: IBActions
     @IBAction func didSignInButtonTap(sender: AnyObject) {
+        pushToHomeScreen(true, error: nil)
+        
         guard let username = userNameTextField.text, let password = passwordTextField.text where !username.isEmpty && !password.isEmpty else {
             let alertController = UIAlertController(title: "Error", message: "Email or Password can't be left blank", preferredStyle: UIAlertControllerStyle.Alert)
             let alertAction = UIAlertAction(title: "Cancel", style: UIAlertActionStyle.Cancel, handler: nil)
