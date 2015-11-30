@@ -8,26 +8,6 @@
 
 import UIKit
 
-class DoctorCell: UITableViewCell {
-    @IBOutlet weak var doctorProfilePic: UIImageView!
-    @IBOutlet weak var doctorName: UILabel!
-    @IBOutlet weak var doctorCategory: UILabel!
-    @IBOutlet weak var doctorRating: UIImageView!
-    @IBOutlet weak var location: UILabel!
-    @IBOutlet weak var addToListButton: UIButton!
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-        
-    }
-    
-    override func setSelected(selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-    }
-    
-}
-
 class SuggestedDoctorsCell: UITableViewCell, UITableViewDataSource, UITableViewDelegate {
 
     var doctorDataSource: [AnyObject]?
@@ -40,6 +20,7 @@ class SuggestedDoctorsCell: UITableViewCell, UITableViewDataSource, UITableViewD
         cardView.layer.borderColor = UIColor.lightGrayColor().CGColor
         cardView.layer.shadowColor = UIColor.grayColor().CGColor
         suggestedDoctorTableView.estimatedRowHeight = 90.0
+        suggestedDoctorTableView.registerNib(UINib(nibName: "DoctorCell", bundle: NSBundle.mainBundle()), forCellReuseIdentifier: "DoctorCellIdentifier")
         suggestedDoctorTableView.rowHeight = UITableViewAutomaticDimension
         suggestedDoctorTableView.reloadData()
     }

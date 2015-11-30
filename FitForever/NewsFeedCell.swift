@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NewsFeedCell: UITableViewCell {
+class NewsFeedCell: UITableViewCell, UICollectionViewDataSource, UICollectionViewDelegate {
 
     @IBOutlet weak var cardView: UIView!
     @IBOutlet weak var profileImageView: UIImageView!
@@ -19,6 +19,15 @@ class NewsFeedCell: UITableViewCell {
     @IBOutlet weak var ailmentHeadingLabel: UILabel!
     @IBOutlet weak var postImageView: UIImageView!
     @IBOutlet weak var postImageTopConstraint: NSLayoutConstraint!
+    @IBOutlet weak var bottomBarViewForPost: UIView!
+    @IBOutlet weak var bottomBarViewForAnswer: UIView!
+    @IBOutlet weak var nDoctorReplyLabel: UILabel!
+    @IBOutlet weak var answeredLabel: UILabel!
+    @IBOutlet weak var answerByDoctorsCollectionView: UICollectionView!
+    @IBOutlet weak var askMeView: UIView!
+    @IBOutlet weak var postTimeView: UIView!
+    
+    var replyByDoctorsList: [AnyObject]?
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -41,4 +50,21 @@ class NewsFeedCell: UITableViewCell {
     @IBAction func didShareButtonTap(sender: AnyObject) {
     }
     
+    //MARK: Collection Vie  w Delegate and Datasource Methods
+    
+    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+        return 1
+    }
+    
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 5
+    }
+    
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("AnswerByDoctorCollectionViewCell", forIndexPath: indexPath)
+        let imageView = cell.viewWithTag(kAnswerByDoctorsProfilePicTag) as? UIImageView
+        imageView?.backgroundColor = UIColor.brownColor()
+        
+        return cell
+    }
 }

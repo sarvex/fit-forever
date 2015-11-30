@@ -17,9 +17,14 @@ class CustomTabViewController: UIViewController {
     @IBOutlet var tabBarButtons: [UIButton]!
     @IBOutlet var tabBarIcons: [UIImageView]!
     @IBOutlet var tabBarTitles: [UILabel]!
+    @IBOutlet weak var customTabBarBackgroundView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let backLayer = CALayer()
+        backLayer.frame = CGRectMake(0.0, 0.0, UIScreen.mainScreen().applicationFrame.width, 0.5)
+        backLayer.backgroundColor = UIColor.lightGrayColor().CGColor
+        customTabBarBackgroundView.layer.addSublayer(backLayer)
     }
     
     override func viewWillAppear(animated: Bool) {

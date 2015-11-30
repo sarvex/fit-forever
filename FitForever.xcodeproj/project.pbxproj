@@ -44,6 +44,8 @@
 		BAE063081C09C9F500495000 /* CustomRelationshipSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE063071C09C9F500495000 /* CustomRelationshipSegue.swift */; };
 		BAE0630A1C0AAD2000495000 /* mosquito.png in Resources */ = {isa = PBXBuildFile; fileRef = BAE063091C0AAD2000495000 /* mosquito.png */; };
 		BAF5E6741C0AD15A00013E83 /* SuggestedDoctorsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF5E6731C0AD15A00013E83 /* SuggestedDoctorsCell.swift */; };
+		BAF5E6781C0C7F6400013E83 /* DoctorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF5E6761C0C7F6400013E83 /* DoctorCell.swift */; };
+		BAF5E6791C0C7F6400013E83 /* DoctorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF5E6771C0C7F6400013E83 /* DoctorCell.xib */; };
 		F1565E84BBAFA7BB2BE106FA /* Pods_FitForever.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69767E0D88BEA9BF24C84AF9 /* Pods_FitForever.framework */; };
 /* End PBXBuildFile section */
 
@@ -110,6 +112,8 @@
 		BAE063071C09C9F500495000 /* CustomRelationshipSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomRelationshipSegue.swift; sourceTree = "<group>"; };
 		BAE063091C0AAD2000495000 /* mosquito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mosquito.png; sourceTree = "<group>"; };
 		BAF5E6731C0AD15A00013E83 /* SuggestedDoctorsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestedDoctorsCell.swift; sourceTree = "<group>"; };
+		BAF5E6761C0C7F6400013E83 /* DoctorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorCell.swift; sourceTree = "<group>"; };
+		BAF5E6771C0C7F6400013E83 /* DoctorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoctorCell.xib; sourceTree = "<group>"; };
 		C921EA658E686C973F34CEEF /* Pods-FitForever.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitForever.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitForever/Pods-FitForever.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -274,6 +278,7 @@
 		BA7B69211BC2C4AC00E144F6 /* FitForever */ = {
 			isa = PBXGroup;
 			children = (
+				BAF5E6751C0C7F2F00013E83 /* CustomCells */,
 				BAE063091C0AAD2000495000 /* mosquito.png */,
 				BA236D191BD15C6700B64742 /* Home */,
 				BA236D161BD15C4400B64742 /* Ailment */,
@@ -325,6 +330,15 @@
 				BA7B69261BC2C4AC00E144F6 /* Login.storyboard */,
 			);
 			name = Auth;
+			sourceTree = "<group>";
+		};
+		BAF5E6751C0C7F2F00013E83 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				BAF5E6761C0C7F6400013E83 /* DoctorCell.swift */,
+				BAF5E6771C0C7F6400013E83 /* DoctorCell.xib */,
+			);
+			name = CustomCells;
 			sourceTree = "<group>";
 		};
 		E9D17E4EAC41509363E6F8A3 /* Frameworks */ = {
@@ -448,6 +462,7 @@
 				BA7B69301BC2C4AC00E144F6 /* LaunchScreen.storyboard in Resources */,
 				BAE0630A1C0AAD2000495000 /* mosquito.png in Resources */,
 				BA6CED831BCA65AD00890140 /* Home.storyboard in Resources */,
+				BAF5E6791C0C7F6400013E83 /* DoctorCell.xib in Resources */,
 				BA7ABACC1BC9B32800F72108 /* GoogleService-Info.plist in Resources */,
 				BA7B692D1BC2C4AC00E144F6 /* Assets.xcassets in Resources */,
 				BA7B69281BC2C4AC00E144F6 /* Login.storyboard in Resources */,
@@ -558,6 +573,7 @@
 				BA236D221BD19A4A00B64742 /* WalletViewController.swift in Sources */,
 				BA236D311BD22AAE00B64742 /* ProfileTableViewCell.swift in Sources */,
 				BA7B69541BC416CC00E144F6 /* FacebookManager.swift in Sources */,
+				BAF5E6781C0C7F6400013E83 /* DoctorCell.swift in Sources */,
 				BA236D141BD1340800B64742 /* MoreViewController.swift in Sources */,
 				BA236D2C1BD19AA000B64742 /* HistoryViewController.swift in Sources */,
 				BA7B69251BC2C4AC00E144F6 /* SignInViewController.swift in Sources */,

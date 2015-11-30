@@ -22,3 +22,5 @@ let kFabricApplicationId = "8792956"
 
 let kTwiiterAPIKey = "S6OLjcKLifPwfsUdnKxlfN3ab"
 let kTwitterAPISecret = "m401R5yRhLahwYnewqU3ob2zm5sVLf2XD3eA5A6SK3RMENsaZd"
+
+let kAnswerByDoctorsProfilePicTag = 8888

@@ -55,13 +55,29 @@ class AilmentViewController: UIViewController {
             if indexPath.row == 0 {
                 cell.postImageView.image = UIImage(named: "mosquito.png")
                 cell.postImageTopConstraint.constant = 10.0
+                cell.bottomBarViewForAnswer.hidden = true
+                cell.answeredLabel.hidden = true
+                cell.askMeView.hidden = true
+                cell.postTimeView.hidden = false
+                cell.bottomBarViewForPost.hidden = false
             }
             else if indexPath.row == 2 {
                 cell.ailmentHeadingLabel.text = nil
+                cell.bottomBarViewForAnswer.hidden = true
+                cell.answeredLabel.hidden = true
+                cell.askMeView.hidden = true
+                cell.postTimeView.hidden = false
+                cell.bottomBarViewForPost.hidden = false
             }
             else {
                 cell.postImageView.image = nil
                 cell.postImageTopConstraint.constant = -10.0
+                cell.bottomBarViewForAnswer.hidden = false
+                cell.answeredLabel.hidden = false
+                cell.askMeView.hidden = false
+                cell.postTimeView.hidden = true
+                cell.bottomBarViewForPost.hidden = true
+
             }
             cell.updateConstraintsIfNeeded()
             return cell
@@ -70,10 +86,14 @@ class AilmentViewController: UIViewController {
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         if indexPath.row == 3 {
-            return 55 + 90*3
+            return 50   + 90*3
         }
         else {
             return UITableViewAutomaticDimension
         }
+    }
+    
+    @IBAction func didAskMeButtonTap(sender: AnyObject) {
+        
     }
 }
