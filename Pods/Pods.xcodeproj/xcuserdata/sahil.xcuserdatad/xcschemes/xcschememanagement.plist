@@ -69,6 +69,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SOCKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -112,37 +117,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>59203A9EABAD457371179E94833DA132</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>5D69761C2CD2A1E5C013537B29CAB4CF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5E178B1215330768A25A9B2CE3E569E8</key>
+		<key>79E010A4885577C49F81E8FCB00E20BB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>681BA1CC752AA82A0DF36A8738A11BA4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>94A50FB884552F1E25589DD6EA641782</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>99151B6D63B117EB1ED6252D1C1F50B6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>A2FB4CEEDE0C386E23BB48F2880F2805</key>
+		<key>A11431A188E0D1CA6603CF15DCE82653</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -152,7 +137,32 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>CA73D2B685D1F7BDA2F21951AA83AF3A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D5F6AA7887EE32E19111827FAEC44213</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D8470470292BC39EE263E6103508E41A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>E61CE3B6DFA1FE6B3E296965C76C0E10</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E937A484F84BDFFC06820B3CD15B0AC6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E940332217B4B01D9F0457FADC1649AA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

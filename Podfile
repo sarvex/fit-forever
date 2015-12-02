@@ -15,6 +15,7 @@ target ‘FitForever’ do
   pod 'ParseFacebookUtilsV4', '~> 1.8.5'
   pod 'ParseTwitterUtils', '~> 1.8.4'
   pod 'Google/SignIn'
+  pod 'SDWebImage'
   
   post_install do |installer|
       installer.pods_project.build_configuration_list.build_configurations.each do |configuration|

@@ -1,0 +1,55 @@
+{
+    "medicines": [
+                  "Citrazine",
+                  "Aspirin",
+                  "Avil",
+                  "Crocin"
+                  ],
+    "treatments": [
+                   "Is there a cure for Alzheimer's disease?",
+                   "How do you treat mesothelioma?",
+                   "What is the treatment for multiple sclerosis?",
+                   "What is the treatment for migrain?"
+                   ],
+    "doctors":
+    [
+     {
+     "name": "Dr. Satish Shah",
+     "rating": "5",
+     "loc": "Noida, Delhi NCR",
+     "spec" : "General Physician",
+     "img" : "https://lh6.googleusercontent.com/-3KIuk77DtXg/AAAAAAAAAAI/AAAAAAAAAAA/aO8h9JlV7Sw/s128-c-k/photo.jpg"
+     },
+     {
+     "name": "Dr. Rajesh Puri",
+     "rating": "5",
+     "loc": "Gurgaon, Delhi NCR",
+     "spec" : "Cardiologist",
+     "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFrn6GQksJvhI69Q4Ocw38SR91YqwG1nHiKl1ZY4DEMgZy8IM2jw"
+     },
+     {
+     "name": "Dr. Prerna Kapoor",
+     "rating": "4",
+     "loc": "Faridabad, Haryana",
+     "spec" : "Dentist",
+     "img" : "http://hp-cdn1.healthpost.com/profile_images/443-20131023144521/small/443-naureen-ahmeduddin-do.jpg?1448035727"
+     }
+     ],
+    "topics":[
+              {
+              "title" : "What can you eat for healthy diet and for growth?",
+              "desc" : "To keep our body functioning, we need different types of nutrients from our diet. These nutrients are mainly classified into two types: 1. Macro nutrients 2. Micronutrients",
+              "img" : "https://pbs.twimg.com/profile_images/651322427855638528/DlSmzZMa.jpg"
+              },
+              {
+              "title" : "What should I do for regain my hair density and strength?",
+              "desc" : "Hello,take homoeopathic medicines.\n1.Weisbaden 30 (4 drops in little water) thrice a day for 15 days.\n2.Silicea 6X (3 tabs) thrice a day for 15 days and update with the feedback.\nUse Arnica hair oil and Arnica shampoo.\nKeep a gap of 15-20 minutes in both the medicines.",
+              "img" : "http://www.hairlossstudio.com/wp-content/uploads/2015/10/hair-system.jpg"
+              },
+              {
+              "title" : "How effective are natural remedies like zinc, echinacea, and vitamin c? And how long it will take to resolve?",
+              "desc" : "take sinarest one tab at night for 3 days. do gargle, take steam, take honitus cough syrup 2 tsf 2 times daily.. inform if not ok. You can take multi vitamins one daily for one month.",
+              "img" : "http://www.koshervitamins.com/shop/stores_app/image_b2.asp?img=/images/images_101/logos/Natures-Way-top.jpg&w=100"
+              }
+              ]
+}

@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "59203A9EABAD457371179E94833DA132"
-               BlueprintName = "SOCKit"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "SOCKit.framework">
+               BuildableIdentifier = 'primary'
+               BlueprintIdentifier = 'E9B456976B6B8781707C6914'
+               BlueprintName = 'SOCKit'
+               ReferencedContainer = 'container:Pods.xcodeproj'
+               BuildableName = 'SOCKit.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

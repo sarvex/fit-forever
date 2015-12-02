@@ -46,6 +46,9 @@
 		BAF5E6741C0AD15A00013E83 /* SuggestedDoctorsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF5E6731C0AD15A00013E83 /* SuggestedDoctorsCell.swift */; };
 		BAF5E6781C0C7F6400013E83 /* DoctorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF5E6761C0C7F6400013E83 /* DoctorCell.swift */; };
 		BAF5E6791C0C7F6400013E83 /* DoctorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF5E6771C0C7F6400013E83 /* DoctorCell.xib */; };
+		BAF5E6811C0DB16000013E83 /* HealthTopicSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF5E6801C0DB16000013E83 /* HealthTopicSearchCell.swift */; };
+		BAF5E6831C0DDD2800013E83 /* MedicineTreatmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF5E6821C0DDD2800013E83 /* MedicineTreatmentCell.swift */; };
+		BAF5E6871C0E474F00013E83 /* search_data.json in Resources */ = {isa = PBXBuildFile; fileRef = BAF5E6861C0E474F00013E83 /* search_data.json */; };
 		F1565E84BBAFA7BB2BE106FA /* Pods_FitForever.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69767E0D88BEA9BF24C84AF9 /* Pods_FitForever.framework */; };
 /* End PBXBuildFile section */
 
@@ -114,6 +117,9 @@
 		BAF5E6731C0AD15A00013E83 /* SuggestedDoctorsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestedDoctorsCell.swift; sourceTree = "<group>"; };
 		BAF5E6761C0C7F6400013E83 /* DoctorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorCell.swift; sourceTree = "<group>"; };
 		BAF5E6771C0C7F6400013E83 /* DoctorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoctorCell.xib; sourceTree = "<group>"; };
+		BAF5E6801C0DB16000013E83 /* HealthTopicSearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthTopicSearchCell.swift; sourceTree = "<group>"; };
+		BAF5E6821C0DDD2800013E83 /* MedicineTreatmentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicineTreatmentCell.swift; sourceTree = "<group>"; };
+		BAF5E6861C0E474F00013E83 /* search_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search_data.json; sourceTree = "<group>"; };
 		C921EA658E686C973F34CEEF /* Pods-FitForever.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitForever.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitForever/Pods-FitForever.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -186,6 +192,8 @@
 			isa = PBXGroup;
 			children = (
 				BA236D231BD19A5A00B64742 /* SearchViewController.swift */,
+				BAF5E6801C0DB16000013E83 /* HealthTopicSearchCell.swift */,
+				BAF5E6821C0DDD2800013E83 /* MedicineTreatmentCell.swift */,
 			);
 			name = Search;
 			sourceTree = "<group>";
@@ -299,6 +307,7 @@
 				BA2A87541BCA97F00076F86A /* Extensions.swift */,
 				BA236D321BD230DA00B64742 /* Strings.swift */,
 				BA236D341BD2352700B64742 /* ColorAndFont.swift */,
+				BAF5E6861C0E474F00013E83 /* search_data.json */,
 			);
 			path = FitForever;
 			sourceTree = "<group>";
@@ -466,6 +475,7 @@
 				BA7ABACC1BC9B32800F72108 /* GoogleService-Info.plist in Resources */,
 				BA7B692D1BC2C4AC00E144F6 /* Assets.xcassets in Resources */,
 				BA7B69281BC2C4AC00E144F6 /* Login.storyboard in Resources */,
+				BAF5E6871C0E474F00013E83 /* search_data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,8 +578,10 @@
 				BAF5E6741C0AD15A00013E83 /* SuggestedDoctorsCell.swift in Sources */,
 				BA236D201BD19A3A00B64742 /* AskViewController.swift in Sources */,
 				BA236D331BD230DA00B64742 /* Strings.swift in Sources */,
+				BAF5E6811C0DB16000013E83 /* HealthTopicSearchCell.swift in Sources */,
 				BA2A87591BCA9D750076F86A /* NewsFeedCell.swift in Sources */,
 				BA2A87551BCA97F00076F86A /* Extensions.swift in Sources */,
+				BAF5E6831C0DDD2800013E83 /* MedicineTreatmentCell.swift in Sources */,
 				BA236D221BD19A4A00B64742 /* WalletViewController.swift in Sources */,
 				BA236D311BD22AAE00B64742 /* ProfileTableViewCell.swift in Sources */,
 				BA7B69541BC416CC00E144F6 /* FacebookManager.swift in Sources */,

@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A2FB4CEEDE0C386E23BB48F2880F2805"
-               BlueprintName = "RestKit"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "RestKit.framework">
+               BuildableIdentifier = 'primary'
+               BlueprintIdentifier = 'DAB640BE2AEFA89D0865361F'
+               BlueprintName = 'RestKit'
+               ReferencedContainer = 'container:Pods.xcodeproj'
+               BuildableName = 'RestKit.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
