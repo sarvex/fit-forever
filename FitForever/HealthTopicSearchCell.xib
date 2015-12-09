@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HealthTopicSearchCellIdentifier" rowHeight="115" id="xi2-Cn-HFS" customClass="HealthTopicSearchCell" customModule="FitForever" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="576" height="115"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xi2-Cn-HFS" id="trI-rb-ysr">
+                <rect key="frame" x="0.0" y="0.0" width="576" height="114"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="03R-PT-gzd">
+                        <rect key="frame" x="0.0" y="0.0" width="576" height="114"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IMZ-as-FJV">
+                                <rect key="frame" x="10" y="5" width="56" height="56"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.46274510029999999" green="0.64705884459999996" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="iN4-Ak-hl1"/>
+                                    <constraint firstAttribute="width" constant="56" id="vpo-TW-VyM"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="What can you eat for healthy diet for proper growth?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yo5-1R-IZ6">
+                                <rect key="frame" x="76" y="8" width="490" height="62"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="53" id="pMv-pd-VSv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.46274510029999999" green="0.64705884459999996" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit er elit lamet, see more..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Cb-28-3cw">
+                                <rect key="frame" x="38" y="78" width="530" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7Cb-28-3cw" firstAttribute="leading" secondItem="03R-PT-gzd" secondAttribute="leading" constant="38" id="0an-ea-gg9"/>
+                            <constraint firstAttribute="trailing" secondItem="yo5-1R-IZ6" secondAttribute="trailing" constant="10" id="8QW-ny-nGK"/>
+                            <constraint firstItem="IMZ-as-FJV" firstAttribute="top" secondItem="03R-PT-gzd" secondAttribute="top" constant="5" id="Fy3-vo-df8"/>
+                            <constraint firstAttribute="trailing" secondItem="7Cb-28-3cw" secondAttribute="trailing" constant="8" id="GjV-6D-DML"/>
+                            <constraint firstItem="IMZ-as-FJV" firstAttribute="leading" secondItem="03R-PT-gzd" secondAttribute="leading" constant="10" id="Zfh-M2-vDp"/>
+                            <constraint firstItem="7Cb-28-3cw" firstAttribute="top" secondItem="IMZ-as-FJV" secondAttribute="bottom" constant="8" id="dKJ-bW-75O"/>
+                            <constraint firstItem="7Cb-28-3cw" firstAttribute="top" secondItem="yo5-1R-IZ6" secondAttribute="bottom" constant="8" id="dlg-sN-uTp"/>
+                            <constraint firstItem="yo5-1R-IZ6" firstAttribute="top" secondItem="03R-PT-gzd" secondAttribute="top" constant="8" id="eMT-H4-S1M"/>
+                            <constraint firstItem="7Cb-28-3cw" firstAttribute="top" secondItem="IMZ-as-FJV" secondAttribute="bottom" constant="8" id="qFV-be-HIu"/>
+                            <constraint firstItem="yo5-1R-IZ6" firstAttribute="leading" secondItem="IMZ-as-FJV" secondAttribute="trailing" constant="10" id="rHb-lY-05i"/>
+                            <constraint firstAttribute="bottom" secondItem="7Cb-28-3cw" secondAttribute="bottom" constant="15" id="uvE-ux-8ZE"/>
+                            <constraint firstItem="7Cb-28-3cw" firstAttribute="top" secondItem="yo5-1R-IZ6" secondAttribute="top" id="xZv-b9-SKR"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowOpacity">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
+                                <size key="value" width="0.0" height="2"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="xZv-b9-SKR"/>
+                                <exclude reference="qFV-be-HIu"/>
+                                <exclude reference="dKJ-bW-75O"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="03R-PT-gzd" firstAttribute="leading" secondItem="trI-rb-ysr" secondAttribute="leading" id="PD5-gg-Nwm"/>
+                    <constraint firstAttribute="trailing" secondItem="03R-PT-gzd" secondAttribute="trailing" id="f7e-Ya-9ib"/>
+                    <constraint firstItem="03R-PT-gzd" firstAttribute="top" secondItem="trI-rb-ysr" secondAttribute="top" id="m3S-hy-WGt"/>
+                    <constraint firstAttribute="bottom" secondItem="03R-PT-gzd" secondAttribute="bottom" id="q3A-fY-2SB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="cardView" destination="03R-PT-gzd" id="io8-37-wYK"/>
+                <outlet property="healthTopicDescriptionLabel" destination="7Cb-28-3cw" id="GyG-9D-ngy"/>
+                <outlet property="healthTopicImageView" destination="IMZ-as-FJV" id="yaQ-J6-iav"/>
+                <outlet property="healthTopicTitleLabel" destination="yo5-1R-IZ6" id="Bj7-AQ-W7B"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

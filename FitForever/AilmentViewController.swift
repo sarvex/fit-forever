@@ -24,6 +24,8 @@ class AilmentViewController: UIViewController {
         
         ailmentTableView.estimatedRowHeight = 275.0
         ailmentTableView.rowHeight = UITableViewAutomaticDimension
+        ailmentTableView.registerNib(UINib(nibName: "NewsFeedCell", bundle: NSBundle.mainBundle()), forCellReuseIdentifier: "NewsFeedCellIdentifier")
+        ailmentTableView.registerNib(UINib(nibName: "SuggestedDoctorsCell", bundle: NSBundle.mainBundle()), forCellReuseIdentifier: "SuggestedDoctorsCellIdentifier")
     }
 
     override func viewWillAppear(animated: Bool) {
@@ -86,7 +88,7 @@ class AilmentViewController: UIViewController {
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         if indexPath.row == 3 {
-            return 50   + 90*3
+            return 50 + 90*3
         }
         else {
             return UITableViewAutomaticDimension

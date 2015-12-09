@@ -52,6 +52,8 @@ class SearchViewController: UIViewController, UISearchBarDelegate, UITableViewDe
         
         fetchRecordsForSearch()
         searchTableView.registerNib(UINib(nibName: "DoctorCell", bundle: NSBundle.mainBundle()), forCellReuseIdentifier: "DoctorCellIdentifier")
+        searchTableView.registerNib(UINib(nibName: "HealthTopicSearchCell", bundle: NSBundle.mainBundle()), forCellReuseIdentifier: "HealthTopicSearchCellIdentifier")
+        searchTableView.registerNib(UINib(nibName: "MedicineTreatmentCell", bundle: NSBundle.mainBundle()), forCellReuseIdentifier: "MedicineTreatmentCellIdentifier")
         searchTableView.estimatedRowHeight = 150.0
         searchTableView.rowHeight = UITableViewAutomaticDimension
         searchTableView.backgroundColor = colorR237G242B245

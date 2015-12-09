@@ -111,6 +111,7 @@
                 <outlet property="doctorRating" destination="aOG-xx-W5H" id="6cH-ya-5Js"/>
                 <outlet property="location" destination="xWN-Dw-YXI" id="g3r-Sh-u9h"/>
             </connections>
+            <point key="canvasLocation" x="262" y="376"/>
         </tableViewCell>
     </objects>
     <resources>

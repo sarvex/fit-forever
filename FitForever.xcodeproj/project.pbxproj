@@ -23,7 +23,6 @@
 		BA2A87591BCA9D750076F86A /* NewsFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2A87581BCA9D750076F86A /* NewsFeedCell.swift */; };
 		BA3303281BD3C4480034CE19 /* AilmentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3303271BD3C4480034CE19 /* AilmentDetailViewController.swift */; };
 		BA63D8C61BD0B9EF00A3BC02 /* LifeStyleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA63D8C51BD0B9EF00A3BC02 /* LifeStyleCell.swift */; };
-		BA6CED831BCA65AD00890140 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6CED821BCA65AD00890140 /* Home.storyboard */; };
 		BA7ABAC21BC99F2200F72108 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA7ABAC11BC99F2200F72108 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		BA7ABAC41BC99F2B00F72108 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA7ABAC31BC99F2B00F72108 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		BA7ABACC1BC9B32800F72108 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA7ABACB1BC9B32800F72108 /* GoogleService-Info.plist */; };
@@ -43,6 +42,13 @@
 		BAE063061C09C8DD00495000 /* CustomTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE063051C09C8DD00495000 /* CustomTabViewController.swift */; };
 		BAE063081C09C9F500495000 /* CustomRelationshipSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE063071C09C9F500495000 /* CustomRelationshipSegue.swift */; };
 		BAE0630A1C0AAD2000495000 /* mosquito.png in Resources */ = {isa = PBXBuildFile; fileRef = BAE063091C0AAD2000495000 /* mosquito.png */; };
+		BAE37A921C1317220068129F /* SuggestedDoctorsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAE37A911C1317220068129F /* SuggestedDoctorsCell.xib */; };
+		BAE37A9D1C132A670068129F /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE37A9B1C132A670068129F /* Home.storyboard */; };
+		BAE37AA31C132F8B0068129F /* HealthTopicSearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAE37AA21C132F8B0068129F /* HealthTopicSearchCell.xib */; };
+		BAE37AA51C1330050068129F /* MedicineTreatmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAE37AA41C1330050068129F /* MedicineTreatmentCell.xib */; };
+		BAE37AA71C1333CF0068129F /* NewsFeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAE37AA61C1333CF0068129F /* NewsFeedCell.xib */; };
+		BAE37AAA1C133C3D0068129F /* AnswerByDoctorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE37AA81C133C3D0068129F /* AnswerByDoctorCollectionViewCell.swift */; };
+		BAE37AAB1C133C3D0068129F /* AnswerByDoctorCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAE37AA91C133C3D0068129F /* AnswerByDoctorCollectionViewCell.xib */; };
 		BAF5E6741C0AD15A00013E83 /* SuggestedDoctorsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF5E6731C0AD15A00013E83 /* SuggestedDoctorsCell.swift */; };
 		BAF5E6781C0C7F6400013E83 /* DoctorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF5E6761C0C7F6400013E83 /* DoctorCell.swift */; };
 		BAF5E6791C0C7F6400013E83 /* DoctorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF5E6771C0C7F6400013E83 /* DoctorCell.xib */; };
@@ -88,7 +94,6 @@
 		BA2A87581BCA9D750076F86A /* NewsFeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedCell.swift; sourceTree = "<group>"; };
 		BA3303271BD3C4480034CE19 /* AilmentDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AilmentDetailViewController.swift; sourceTree = "<group>"; };
 		BA63D8C51BD0B9EF00A3BC02 /* LifeStyleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeStyleCell.swift; sourceTree = "<group>"; };
-		BA6CED821BCA65AD00890140 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		BA7ABAC11BC99F2200F72108 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		BA7ABAC31BC99F2B00F72108 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		BA7ABACB1BC9B32800F72108 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -114,6 +119,13 @@
 		BAE063051C09C8DD00495000 /* CustomTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabViewController.swift; sourceTree = "<group>"; };
 		BAE063071C09C9F500495000 /* CustomRelationshipSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomRelationshipSegue.swift; sourceTree = "<group>"; };
 		BAE063091C0AAD2000495000 /* mosquito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mosquito.png; sourceTree = "<group>"; };
+		BAE37A911C1317220068129F /* SuggestedDoctorsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuggestedDoctorsCell.xib; sourceTree = "<group>"; };
+		BAE37A9C1C132A670068129F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		BAE37AA21C132F8B0068129F /* HealthTopicSearchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HealthTopicSearchCell.xib; sourceTree = "<group>"; };
+		BAE37AA41C1330050068129F /* MedicineTreatmentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MedicineTreatmentCell.xib; sourceTree = "<group>"; };
+		BAE37AA61C1333CF0068129F /* NewsFeedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsFeedCell.xib; sourceTree = "<group>"; };
+		BAE37AA81C133C3D0068129F /* AnswerByDoctorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerByDoctorCollectionViewCell.swift; sourceTree = "<group>"; };
+		BAE37AA91C133C3D0068129F /* AnswerByDoctorCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnswerByDoctorCollectionViewCell.xib; sourceTree = "<group>"; };
 		BAF5E6731C0AD15A00013E83 /* SuggestedDoctorsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestedDoctorsCell.swift; sourceTree = "<group>"; };
 		BAF5E6761C0C7F6400013E83 /* DoctorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorCell.swift; sourceTree = "<group>"; };
 		BAF5E6771C0C7F6400013E83 /* DoctorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoctorCell.xib; sourceTree = "<group>"; };
@@ -172,10 +184,8 @@
 			isa = PBXGroup;
 			children = (
 				BA7B695C1BC4EA0A00E144F6 /* AilmentViewController.swift */,
-				BA2A87581BCA9D750076F86A /* NewsFeedCell.swift */,
 				BA63D8C51BD0B9EF00A3BC02 /* LifeStyleCell.swift */,
 				BA3303271BD3C4480034CE19 /* AilmentDetailViewController.swift */,
-				BAF5E6731C0AD15A00013E83 /* SuggestedDoctorsCell.swift */,
 			);
 			name = Ailment;
 			sourceTree = "<group>";
@@ -193,7 +203,9 @@
 			children = (
 				BA236D231BD19A5A00B64742 /* SearchViewController.swift */,
 				BAF5E6801C0DB16000013E83 /* HealthTopicSearchCell.swift */,
+				BAE37AA21C132F8B0068129F /* HealthTopicSearchCell.xib */,
 				BAF5E6821C0DDD2800013E83 /* MedicineTreatmentCell.swift */,
+				BAE37AA41C1330050068129F /* MedicineTreatmentCell.xib */,
 			);
 			name = Search;
 			sourceTree = "<group>";
@@ -201,7 +213,7 @@
 		BA236D191BD15C6700B64742 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				BA6CED821BCA65AD00890140 /* Home.storyboard */,
+				BAE37A9B1C132A670068129F /* Home.storyboard */,
 				BAE063051C09C8DD00495000 /* CustomTabViewController.swift */,
 				BAE063071C09C9F500495000 /* CustomRelationshipSegue.swift */,
 			);
@@ -286,8 +298,8 @@
 		BA7B69211BC2C4AC00E144F6 /* FitForever */ = {
 			isa = PBXGroup;
 			children = (
-				BAF5E6751C0C7F2F00013E83 /* CustomCells */,
 				BAE063091C0AAD2000495000 /* mosquito.png */,
+				BAF5E6751C0C7F2F00013E83 /* CustomCells */,
 				BA236D191BD15C6700B64742 /* Home */,
 				BA236D161BD15C4400B64742 /* Ailment */,
 				BA236D1B1BD15C8500B64742 /* Ask */,
@@ -346,6 +358,12 @@
 			children = (
 				BAF5E6761C0C7F6400013E83 /* DoctorCell.swift */,
 				BAF5E6771C0C7F6400013E83 /* DoctorCell.xib */,
+				BA2A87581BCA9D750076F86A /* NewsFeedCell.swift */,
+				BAE37AA61C1333CF0068129F /* NewsFeedCell.xib */,
+				BAF5E6731C0AD15A00013E83 /* SuggestedDoctorsCell.swift */,
+				BAE37A911C1317220068129F /* SuggestedDoctorsCell.xib */,
+				BAE37AA81C133C3D0068129F /* AnswerByDoctorCollectionViewCell.swift */,
+				BAE37AA91C133C3D0068129F /* AnswerByDoctorCollectionViewCell.xib */,
 			);
 			name = CustomCells;
 			sourceTree = "<group>";
@@ -470,12 +488,17 @@
 			files = (
 				BA7B69301BC2C4AC00E144F6 /* LaunchScreen.storyboard in Resources */,
 				BAE0630A1C0AAD2000495000 /* mosquito.png in Resources */,
-				BA6CED831BCA65AD00890140 /* Home.storyboard in Resources */,
+				BAE37AA71C1333CF0068129F /* NewsFeedCell.xib in Resources */,
+				BAE37A921C1317220068129F /* SuggestedDoctorsCell.xib in Resources */,
+				BAE37AA51C1330050068129F /* MedicineTreatmentCell.xib in Resources */,
+				BAE37A9D1C132A670068129F /* Home.storyboard in Resources */,
 				BAF5E6791C0C7F6400013E83 /* DoctorCell.xib in Resources */,
 				BA7ABACC1BC9B32800F72108 /* GoogleService-Info.plist in Resources */,
 				BA7B692D1BC2C4AC00E144F6 /* Assets.xcassets in Resources */,
+				BAE37AA31C132F8B0068129F /* HealthTopicSearchCell.xib in Resources */,
 				BA7B69281BC2C4AC00E144F6 /* Login.storyboard in Resources */,
 				BAF5E6871C0E474F00013E83 /* search_data.json in Resources */,
+				BAE37AAB1C133C3D0068129F /* AnswerByDoctorCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +609,7 @@
 				BA236D311BD22AAE00B64742 /* ProfileTableViewCell.swift in Sources */,
 				BA7B69541BC416CC00E144F6 /* FacebookManager.swift in Sources */,
 				BAF5E6781C0C7F6400013E83 /* DoctorCell.swift in Sources */,
+				BAE37AAA1C133C3D0068129F /* AnswerByDoctorCollectionViewCell.swift in Sources */,
 				BA236D141BD1340800B64742 /* MoreViewController.swift in Sources */,
 				BA236D2C1BD19AA000B64742 /* HistoryViewController.swift in Sources */,
 				BA7B69251BC2C4AC00E144F6 /* SignInViewController.swift in Sources */,
@@ -640,6 +664,14 @@
 				BA7B692F1BC2C4AC00E144F6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BAE37A9B1C132A670068129F /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE37A9C1C132A670068129F /* Base */,
+			);
+			name = Home.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

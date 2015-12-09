@@ -33,12 +33,12 @@ class NewsFeedCell: UITableViewCell, UICollectionViewDataSource, UICollectionVie
         super.awakeFromNib()
         cardView.layer.borderColor = UIColor.lightGrayColor().CGColor
         cardView.layer.shadowColor = UIColor.grayColor().CGColor
+        answerByDoctorsCollectionView.registerNib(UINib(nibName: "AnswerByDoctorCollectionViewCell", bundle: NSBundle.mainBundle()), forCellWithReuseIdentifier: "AnswerByDoctorCellIdentifier")
     }
 
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
     }
 
     @IBAction func didLikeButtonTap(sender: AnyObject) {
@@ -61,10 +61,12 @@ class NewsFeedCell: UITableViewCell, UICollectionViewDataSource, UICollectionVie
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("AnswerByDoctorCollectionViewCell", forIndexPath: indexPath)
-        let imageView = cell.viewWithTag(kAnswerByDoctorsProfilePicTag) as? UIImageView
-        imageView?.backgroundColor = UIColor.brownColor()
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("AnswerByDoctorCellIdentifier", forIndexPath: indexPath) as! AnswerByDoctorCollectionViewCell
+        cell.doctorProfileImageView.backgroundColor = UIColor.brownColor()
         
         return cell
+    }
+    
+    @IBAction func didAskDoctorButtonTap(sender: AnyObject) {
     }
 }
