@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
@@ -17,30 +17,20 @@
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JlK-CT-o9b">
                         <rect key="frame" x="17" y="10" width="60" height="60"/>
-                        <animations/>
                         <color key="backgroundColor" red="0.46274510029999999" green="0.64705884459999996" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="60" id="4nc-k7-sC4"/>
                             <constraint firstAttribute="width" constant="60" id="Wfh-3D-lYu"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Dr. Sahil Mahajan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFt-Yv-oAL">
-                        <rect key="frame" x="92" y="10" width="112" height="17"/>
-                        <animations/>
-                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                        <nil key="highlightedColor"/>
-                    </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Family Medicine" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AvY-D8-Km5">
                         <rect key="frame" x="92" y="30" width="85" height="14"/>
-                        <animations/>
                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aOG-xx-W5H">
                         <rect key="frame" x="92" y="47" width="70" height="16"/>
-                        <animations/>
                         <color key="backgroundColor" red="0.79215686269999996" green="0.031372549020000001" blue="0.1058823529" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="70" id="HD3-1j-YKy"/>
@@ -49,14 +39,12 @@
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gurgaon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xWN-Dw-YXI">
                         <rect key="frame" x="92" y="64" width="45" height="13"/>
-                        <animations/>
                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Paw-PF-eZj">
                         <rect key="frame" x="482" y="19" width="75" height="38"/>
-                        <animations/>
                         <constraints>
                             <constraint firstAttribute="width" constant="75" id="5eP-6v-plc"/>
                             <constraint firstAttribute="height" constant="38" id="w6Q-n3-ySZ"/>
@@ -65,21 +53,27 @@
                     </button>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add to List" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGg-86-CvM">
                         <rect key="frame" x="482" y="53" width="74" height="18"/>
-                        <animations/>
                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                         <color key="textColor" red="0.46274510029999999" green="0.64705884459999996" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Dr. Sahil Mahajan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFt-Yv-oAL">
+                        <rect key="frame" x="92" y="10" width="112" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
-                <animations/>
                 <constraints>
                     <constraint firstItem="gGg-86-CvM" firstAttribute="leading" secondItem="Paw-PF-eZj" secondAttribute="leading" id="2Kc-S5-jKJ"/>
+                    <constraint firstItem="KFt-Yv-oAL" firstAttribute="top" secondItem="8VQ-U9-csf" secondAttribute="top" constant="10" id="7px-uu-HEd"/>
                     <constraint firstItem="Paw-PF-eZj" firstAttribute="top" secondItem="8VQ-U9-csf" secondAttribute="topMargin" constant="11" id="7ww-Qd-HQE"/>
                     <constraint firstItem="gGg-86-CvM" firstAttribute="top" secondItem="Paw-PF-eZj" secondAttribute="bottom" constant="-4" id="9aO-sN-s3L"/>
                     <constraint firstItem="KFt-Yv-oAL" firstAttribute="top" secondItem="8VQ-U9-csf" secondAttribute="top" constant="10" id="DMN-kn-gr9"/>
                     <constraint firstItem="KFt-Yv-oAL" firstAttribute="leading" secondItem="JlK-CT-o9b" secondAttribute="trailing" constant="15" id="Lwo-8m-xlo"/>
                     <constraint firstItem="JlK-CT-o9b" firstAttribute="top" secondItem="8VQ-U9-csf" secondAttribute="top" constant="10" id="Qv6-Lt-8OW"/>
                     <constraint firstItem="gGg-86-CvM" firstAttribute="centerX" secondItem="Paw-PF-eZj" secondAttribute="centerX" id="TNK-xh-bPD"/>
+                    <constraint firstItem="KFt-Yv-oAL" firstAttribute="leading" secondItem="JlK-CT-o9b" secondAttribute="trailing" constant="15" id="Tdi-wt-lvm"/>
                     <constraint firstItem="AvY-D8-Km5" firstAttribute="top" secondItem="KFt-Yv-oAL" secondAttribute="bottom" constant="3" id="Tf5-B7-Maf"/>
                     <constraint firstItem="JlK-CT-o9b" firstAttribute="leading" secondItem="8VQ-U9-csf" secondAttribute="leading" constant="17" id="V3V-ZL-JGn"/>
                     <constraint firstAttribute="trailing" secondItem="Paw-PF-eZj" secondAttribute="trailing" constant="20" id="Xul-h9-s99"/>
@@ -102,7 +96,6 @@
                     </mask>
                 </variation>
             </tableViewCellContentView>
-            <animations/>
             <connections>
                 <outlet property="addToListButton" destination="Paw-PF-eZj" id="Zha-Ip-wAx"/>
                 <outlet property="doctorCategory" destination="AvY-D8-Km5" id="fMl-0K-2ah"/>
