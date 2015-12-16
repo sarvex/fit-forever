@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3349E71E1C2089EC007F417C /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3349E71C1C2089EC007F417C /* CustomCell.swift */; };
+		3349E71F1C2089EC007F417C /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3349E71D1C2089EC007F417C /* CustomCell.xib */; };
+		3349E7221C2093FA007F417C /* QnACell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3349E7201C2093FA007F417C /* QnACell.swift */; };
+		3349E7231C2093FA007F417C /* QnACell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3349E7211C2093FA007F417C /* QnACell.xib */; };
 		BA236D141BD1340800B64742 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D131BD1340800B64742 /* MoreViewController.swift */; };
 		BA236D201BD19A3A00B64742 /* AskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D1F1BD19A3A00B64742 /* AskViewController.swift */; };
 		BA236D221BD19A4A00B64742 /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D211BD19A4A00B64742 /* WalletViewController.swift */; };
@@ -76,6 +80,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3349E71C1C2089EC007F417C /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		3349E71D1C2089EC007F417C /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		3349E7201C2093FA007F417C /* QnACell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QnACell.swift; sourceTree = "<group>"; };
+		3349E7211C2093FA007F417C /* QnACell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QnACell.xib; sourceTree = "<group>"; };
 		4D7320EC273A0DD36BF41312 /* Pods-FitForever.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitForever.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitForever/Pods-FitForever.release.xcconfig"; sourceTree = "<group>"; };
 		69767E0D88BEA9BF24C84AF9 /* Pods_FitForever.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitForever.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA236D131BD1340800B64742 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
@@ -364,6 +372,10 @@
 				BAE37A911C1317220068129F /* SuggestedDoctorsCell.xib */,
 				BAE37AA81C133C3D0068129F /* AnswerByDoctorCollectionViewCell.swift */,
 				BAE37AA91C133C3D0068129F /* AnswerByDoctorCollectionViewCell.xib */,
+				3349E71C1C2089EC007F417C /* CustomCell.swift */,
+				3349E71D1C2089EC007F417C /* CustomCell.xib */,
+				3349E7201C2093FA007F417C /* QnACell.swift */,
+				3349E7211C2093FA007F417C /* QnACell.xib */,
 			);
 			name = CustomCells;
 			sourceTree = "<group>";
@@ -488,6 +500,8 @@
 			files = (
 				BA7B69301BC2C4AC00E144F6 /* LaunchScreen.storyboard in Resources */,
 				BAE0630A1C0AAD2000495000 /* mosquito.png in Resources */,
+				3349E71F1C2089EC007F417C /* CustomCell.xib in Resources */,
+				3349E7231C2093FA007F417C /* QnACell.xib in Resources */,
 				BAE37AA71C1333CF0068129F /* NewsFeedCell.xib in Resources */,
 				BAE37A921C1317220068129F /* SuggestedDoctorsCell.xib in Resources */,
 				BAE37AA51C1330050068129F /* MedicineTreatmentCell.xib in Resources */,
@@ -590,12 +604,14 @@
 				BA7B695B1BC46A1500E144F6 /* Utility.swift in Sources */,
 				BA7B69581BC45E9300E144F6 /* SignUpViewController.swift in Sources */,
 				BA63D8C61BD0B9EF00A3BC02 /* LifeStyleCell.swift in Sources */,
+				3349E71E1C2089EC007F417C /* CustomCell.swift in Sources */,
 				BA7B69561BC4183700E144F6 /* Constants.swift in Sources */,
 				BA236D261BD19A6900B64742 /* ProfileViewController.swift in Sources */,
 				BA3303281BD3C4480034CE19 /* AilmentDetailViewController.swift in Sources */,
 				BA236D2A1BD19A9200B64742 /* DoctorListViewController.swift in Sources */,
 				BA236D281BD19A8300B64742 /* HealthPackageViewController.swift in Sources */,
 				BA7B692B1BC2C4AC00E144F6 /* FitForever.xcdatamodeld in Sources */,
+				3349E7221C2093FA007F417C /* QnACell.swift in Sources */,
 				BAE063081C09C9F500495000 /* CustomRelationshipSegue.swift in Sources */,
 				BA236D2F1BD19ADA00B64742 /* NotificationViewController.swift in Sources */,
 				BAF5E6741C0AD15A00013E83 /* SuggestedDoctorsCell.swift in Sources */,

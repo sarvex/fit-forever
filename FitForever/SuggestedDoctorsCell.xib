@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -19,14 +19,12 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Suggested Doctors for you" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M6z-gY-H6q">
                                 <rect key="frame" x="185" y="8" width="206" height="21"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="L8n-OB-AV8">
                                 <rect key="frame" x="0.0" y="39" width="576" height="135"/>
-                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="dataSource" destination="6pA-Vi-RxF" id="oRR-bB-yfd"/>
@@ -34,7 +32,6 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <animations/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="L8n-OB-AV8" secondAttribute="trailing" id="9Td-c6-Xzq"/>
                             <constraint firstItem="M6z-gY-H6q" firstAttribute="top" secondItem="9cn-EK-wpK" secondAttribute="top" constant="8" id="DGd-lI-xvA"/>
@@ -53,7 +50,6 @@
                         </userDefinedRuntimeAttributes>
                     </view>
                 </subviews>
-                <animations/>
                 <constraints>
                     <constraint firstItem="9cn-EK-wpK" firstAttribute="leading" secondItem="0fm-uY-pGO" secondAttribute="leading" constant="12" id="5oK-M9-cm8"/>
                     <constraint firstAttribute="bottom" secondItem="9cn-EK-wpK" secondAttribute="bottom" constant="8" id="6Pw-Xo-Eja"/>
@@ -61,7 +57,6 @@
                     <constraint firstItem="9cn-EK-wpK" firstAttribute="top" secondItem="0fm-uY-pGO" secondAttribute="top" constant="8" id="VDM-W5-CAf"/>
                 </constraints>
             </tableViewCellContentView>
-            <animations/>
             <connections>
                 <outlet property="cardView" destination="9cn-EK-wpK" id="UA3-PY-jOC"/>
                 <outlet property="suggestedDoctorTableView" destination="L8n-OB-AV8" id="czE-qj-e7M"/>
