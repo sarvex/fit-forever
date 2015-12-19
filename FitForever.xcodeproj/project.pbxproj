@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		224EF3131C24310100B4BB5F /* MedicineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224EF3111C24310100B4BB5F /* MedicineCell.swift */; settings = {ASSET_TAGS = (); }; };
+		224EF3141C24310100B4BB5F /* MedicineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224EF3121C24310100B4BB5F /* MedicineCell.xib */; settings = {ASSET_TAGS = (); }; };
+		228C00B01C243629001AC5C5 /* VendorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228C00AE1C243629001AC5C5 /* VendorCell.swift */; settings = {ASSET_TAGS = (); }; };
+		228C00B11C243629001AC5C5 /* VendorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 228C00AF1C243629001AC5C5 /* VendorCell.xib */; settings = {ASSET_TAGS = (); }; };
 		3349E71E1C2089EC007F417C /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3349E71C1C2089EC007F417C /* CustomCell.swift */; };
 		3349E71F1C2089EC007F417C /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3349E71D1C2089EC007F417C /* CustomCell.xib */; };
 		3349E7221C2093FA007F417C /* QnACell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3349E7201C2093FA007F417C /* QnACell.swift */; };
@@ -80,6 +84,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		224EF3111C24310100B4BB5F /* MedicineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicineCell.swift; sourceTree = "<group>"; };
+		224EF3121C24310100B4BB5F /* MedicineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MedicineCell.xib; sourceTree = "<group>"; };
+		228C00AE1C243629001AC5C5 /* VendorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VendorCell.swift; sourceTree = "<group>"; };
+		228C00AF1C243629001AC5C5 /* VendorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VendorCell.xib; sourceTree = "<group>"; };
 		3349E71C1C2089EC007F417C /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		3349E71D1C2089EC007F417C /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 		3349E7201C2093FA007F417C /* QnACell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QnACell.swift; sourceTree = "<group>"; };
@@ -376,6 +384,10 @@
 				3349E71D1C2089EC007F417C /* CustomCell.xib */,
 				3349E7201C2093FA007F417C /* QnACell.swift */,
 				3349E7211C2093FA007F417C /* QnACell.xib */,
+				224EF3111C24310100B4BB5F /* MedicineCell.swift */,
+				224EF3121C24310100B4BB5F /* MedicineCell.xib */,
+				228C00AE1C243629001AC5C5 /* VendorCell.swift */,
+				228C00AF1C243629001AC5C5 /* VendorCell.xib */,
 			);
 			name = CustomCells;
 			sourceTree = "<group>";
@@ -504,6 +516,7 @@
 				3349E7231C2093FA007F417C /* QnACell.xib in Resources */,
 				BAE37AA71C1333CF0068129F /* NewsFeedCell.xib in Resources */,
 				BAE37A921C1317220068129F /* SuggestedDoctorsCell.xib in Resources */,
+				228C00B11C243629001AC5C5 /* VendorCell.xib in Resources */,
 				BAE37AA51C1330050068129F /* MedicineTreatmentCell.xib in Resources */,
 				BAE37A9D1C132A670068129F /* Home.storyboard in Resources */,
 				BAF5E6791C0C7F6400013E83 /* DoctorCell.xib in Resources */,
@@ -513,6 +526,7 @@
 				BA7B69281BC2C4AC00E144F6 /* Login.storyboard in Resources */,
 				BAF5E6871C0E474F00013E83 /* search_data.json in Resources */,
 				BAE37AAB1C133C3D0068129F /* AnswerByDoctorCollectionViewCell.xib in Resources */,
+				224EF3141C24310100B4BB5F /* MedicineCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,7 +638,9 @@
 				BA236D221BD19A4A00B64742 /* WalletViewController.swift in Sources */,
 				BA236D311BD22AAE00B64742 /* ProfileTableViewCell.swift in Sources */,
 				BA7B69541BC416CC00E144F6 /* FacebookManager.swift in Sources */,
+				228C00B01C243629001AC5C5 /* VendorCell.swift in Sources */,
 				BAF5E6781C0C7F6400013E83 /* DoctorCell.swift in Sources */,
+				224EF3131C24310100B4BB5F /* MedicineCell.swift in Sources */,
 				BAE37AAA1C133C3D0068129F /* AnswerByDoctorCollectionViewCell.swift in Sources */,
 				BA236D141BD1340800B64742 /* MoreViewController.swift in Sources */,
 				BA236D2C1BD19AA000B64742 /* HistoryViewController.swift in Sources */,
