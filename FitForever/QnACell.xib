@@ -24,8 +24,8 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer text" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fo7-ic-Va0">
-                                <rect key="frame" x="10" y="30" width="77" height="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer X" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fo7-ic-Va0">
+                                <rect key="frame" x="10" y="30" width="61" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -70,10 +70,10 @@
                 </constraints>
             </tableViewCellContentView>
             <connections>
-                <outlet property="AnswerCountLabel" destination="fo7-ic-Va0" id="8hZ-FX-Tpp"/>
-                <outlet property="QuestionLabel" destination="Dad-8m-uDp" id="2jA-ke-CFM"/>
-                <outlet property="TopAnsLabel" destination="XJP-SZ-gIm" id="qej-1j-4IG"/>
-                <outlet property="WrittenByLabel" destination="VkJ-T9-bvs" id="WRD-o8-aZm"/>
+                <outlet property="answerCountLabel" destination="fo7-ic-Va0" id="2wp-BM-ooF"/>
+                <outlet property="questionLabel" destination="Dad-8m-uDp" id="oOD-uT-sqU"/>
+                <outlet property="topAnswerTextLabel" destination="XJP-SZ-gIm" id="ovT-UY-zDX"/>
+                <outlet property="writtenBy" destination="VkJ-T9-bvs" id="NYj-V1-hVK"/>
             </connections>
         </tableViewCell>
     </objects>

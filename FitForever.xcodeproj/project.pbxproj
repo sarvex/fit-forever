@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3349E71E1C2089EC007F417C /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3349E71C1C2089EC007F417C /* CustomCell.swift */; };
-		3349E71F1C2089EC007F417C /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3349E71D1C2089EC007F417C /* CustomCell.xib */; };
+		3349E71E1C2089EC007F417C /* MedicineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3349E71C1C2089EC007F417C /* MedicineCell.swift */; };
+		3349E71F1C2089EC007F417C /* MedicineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3349E71D1C2089EC007F417C /* MedicineCell.xib */; };
 		3349E7221C2093FA007F417C /* QnACell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3349E7201C2093FA007F417C /* QnACell.swift */; };
 		3349E7231C2093FA007F417C /* QnACell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3349E7211C2093FA007F417C /* QnACell.xib */; };
 		BA236D141BD1340800B64742 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA236D131BD1340800B64742 /* MoreViewController.swift */; };
@@ -80,8 +80,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3349E71C1C2089EC007F417C /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
-		3349E71D1C2089EC007F417C /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		3349E71C1C2089EC007F417C /* MedicineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicineCell.swift; sourceTree = "<group>"; };
+		3349E71D1C2089EC007F417C /* MedicineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MedicineCell.xib; sourceTree = "<group>"; };
 		3349E7201C2093FA007F417C /* QnACell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QnACell.swift; sourceTree = "<group>"; };
 		3349E7211C2093FA007F417C /* QnACell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QnACell.xib; sourceTree = "<group>"; };
 		4D7320EC273A0DD36BF41312 /* Pods-FitForever.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitForever.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitForever/Pods-FitForever.release.xcconfig"; sourceTree = "<group>"; };
@@ -372,8 +372,8 @@
 				BAE37A911C1317220068129F /* SuggestedDoctorsCell.xib */,
 				BAE37AA81C133C3D0068129F /* AnswerByDoctorCollectionViewCell.swift */,
 				BAE37AA91C133C3D0068129F /* AnswerByDoctorCollectionViewCell.xib */,
-				3349E71C1C2089EC007F417C /* CustomCell.swift */,
-				3349E71D1C2089EC007F417C /* CustomCell.xib */,
+				3349E71C1C2089EC007F417C /* MedicineCell.swift */,
+				3349E71D1C2089EC007F417C /* MedicineCell.xib */,
 				3349E7201C2093FA007F417C /* QnACell.swift */,
 				3349E7211C2093FA007F417C /* QnACell.xib */,
 			);
@@ -500,7 +500,7 @@
 			files = (
 				BA7B69301BC2C4AC00E144F6 /* LaunchScreen.storyboard in Resources */,
 				BAE0630A1C0AAD2000495000 /* mosquito.png in Resources */,
-				3349E71F1C2089EC007F417C /* CustomCell.xib in Resources */,
+				3349E71F1C2089EC007F417C /* MedicineCell.xib in Resources */,
 				3349E7231C2093FA007F417C /* QnACell.xib in Resources */,
 				BAE37AA71C1333CF0068129F /* NewsFeedCell.xib in Resources */,
 				BAE37A921C1317220068129F /* SuggestedDoctorsCell.xib in Resources */,
@@ -604,7 +604,7 @@
 				BA7B695B1BC46A1500E144F6 /* Utility.swift in Sources */,
 				BA7B69581BC45E9300E144F6 /* SignUpViewController.swift in Sources */,
 				BA63D8C61BD0B9EF00A3BC02 /* LifeStyleCell.swift in Sources */,
-				3349E71E1C2089EC007F417C /* CustomCell.swift in Sources */,
+				3349E71E1C2089EC007F417C /* MedicineCell.swift in Sources */,
 				BA7B69561BC4183700E144F6 /* Constants.swift in Sources */,
 				BA236D261BD19A6900B64742 /* ProfileViewController.swift in Sources */,
 				BA3303281BD3C4480034CE19 /* AilmentDetailViewController.swift in Sources */,

@@ -10,10 +10,10 @@ import UIKit
 
 class QnACell: UITableViewCell {
 
-    @IBOutlet weak var QuestionLabel: UILabel!
-    @IBOutlet weak var AnswerCountLabel: UILabel!
-    @IBOutlet weak var TopAnsLabel: UILabel!
-    @IBOutlet weak var WrittenByLabel: UILabel!
+    @IBOutlet weak var questionLabel: UILabel!
+    @IBOutlet weak var answerCountLabel: UILabel!
+    @IBOutlet weak var topAnswerTextLabel: UILabel!
+    @IBOutlet weak var writtenBy: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
