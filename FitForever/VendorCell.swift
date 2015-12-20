@@ -1,20 +1,20 @@
 //
-//  CustomCell.swift
+//  VendorCell.swift
 //  FitForever
 //
-//  Created by Kshitij Negi on 15/12/15.
+//  Created by Nikita Chhabra on 18/12/15.
 //  Copyright © 2015 Fit Forever. All rights reserved.
 //
 
 import UIKit
 
-class CustomCell: UITableViewCell {
+class VendorCell: UITableViewCell {
 
-    @IBOutlet weak var imgView: UIImageView!
-    @IBOutlet weak var saltNameLabel: UILabel!
-    @IBOutlet weak var treatsLabel: UILabel!
-    @IBOutlet weak var availableMedicineLabel: UILabel!
-    
+    @IBOutlet weak var distance: UILabel!
+    @IBOutlet weak var vendorRating: UILabel!
+    @IBOutlet weak var vendorType: UILabel!
+    @IBOutlet weak var vendorName: UILabel!
+    @IBOutlet weak var vendorImage: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
