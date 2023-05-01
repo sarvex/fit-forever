@@ -13,7 +13,7 @@ target ‘FitForever’ do
   pod 'MBProgressHUD', '~> 0.9'
   pod 'Crashlytics'
   pod 'ParseFacebookUtilsV4', '~> 1.11.0'
-  pod 'ParseTwitterUtils', '~> 1.8.4'
+  pod 'ParseTwitterUtils', '~> 1.11.0'
   pod 'Google/SignIn'
   pod 'SDWebImage'
   
