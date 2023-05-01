@@ -4,7 +4,7 @@ use_frameworks!
 target ‘FitForever’ do
 
   pod 'RestKit', '~> 0.25'
-  pod 'SwiftyJSON', '~> 2.3'
+  pod 'SwiftyJSON', '~> 5.0'
   pod 'Parse' , '~> 1.19.0'
   pod 'FBSDKCoreKit', '~> 16.0'
   pod 'FBSDKShareKit', '~> 4.6'
