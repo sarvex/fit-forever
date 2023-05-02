@@ -10,7 +10,7 @@ target ‘FitForever’ do
   pod 'FBSDKShareKit', '~> 16.0'
   pod 'FBSDKLoginKit', '~> 16.0'
   pod 'Fabric', '~> 1.5'
-  pod 'MBProgressHUD', '~> 0.9'
+  pod 'MBProgressHUD', '~> 1.0'
   pod 'Crashlytics'
   pod 'ParseFacebookUtilsV4', '~> 1.11.0'
   pod 'ParseTwitterUtils', '~> 1.11.0'
