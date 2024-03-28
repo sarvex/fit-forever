@@ -8,7 +8,7 @@ target ‘FitForever’ do
   pod 'Parse' , '~> 1.19.0'
   pod 'FBSDKCoreKit', '~> 16.0'
   pod 'FBSDKShareKit', '~> 16.0'
-  pod 'FBSDKLoginKit', '~> 16.0'
+  pod 'FBSDKLoginKit', '~> 17.0'
   pod 'Fabric', '~> 1.5'
   pod 'MBProgressHUD', '~> 1.0'
   pod 'Crashlytics'
