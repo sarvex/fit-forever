@@ -6,7 +6,7 @@ target ‘FitForever’ do
   pod 'RestKit', '~> 0.25'
   pod 'SwiftyJSON', '~> 5.0'
   pod 'Parse' , '~> 1.19.0'
-  pod 'FBSDKCoreKit', '~> 16.0'
+  pod 'FBSDKCoreKit', '~> 17.0'
   pod 'FBSDKShareKit', '~> 16.0'
   pod 'FBSDKLoginKit', '~> 16.0'
   pod 'Fabric', '~> 1.5'
